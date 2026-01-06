@@ -1,36 +1,28 @@
 'use client';
 
 import React, { useState } from 'react';
-
-const tabs = [
-  { id: 'finance', label: 'Finance' },
-  { id: 'hr', label: 'HR' },
-  { id: 'admin', label: 'Admin' },
-];
-
-const content = {
-  finance: {
-    title: 'Finance',
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-  },
-  hr: {
-    title: 'HR',
-    text: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-  },
-  admin: {
-    title: 'Admin',
-    text: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
-  },
-};
+import { useTranslations } from 'next-intl';
 
 export default function DepartmentBenefits() {
+  const t = useTranslations('DepartmentBenefits');
   const [activeTab, setActiveTab] = useState('finance');
+
+  const tabs = [
+    { id: 'finance', label: t('tabs.finance') },
+    { id: 'hr', label: t('tabs.hr') },
+    { id: 'admin', label: t('tabs.admin') },
+  ];
+
+  const currentContent = {
+    title: t(`content.${activeTab}.title`),
+    text: t(`content.${activeTab}.description`) // Map description to text
+  };
 
   return (
     <section className="py-20 px-4 md:px-12 lg:px-24">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-gray-900 mb-4">Department-Specific Benefits</h2>
-        <p className="text-gray-600">Denmen md axaes tranefics for department-specific benefits.</p>
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h2>
+        <p className="text-gray-600">{t('subtitle')}</p>
       </div>
 
       <div className="max-w-5xl mx-auto">
@@ -56,9 +48,9 @@ export default function DepartmentBenefits() {
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500 rounded-full blur-3xl opacity-20 -ml-16 -mb-16"></div>
             
             <div className="relative z-10 transition-opacity duration-300 w-full">
-                <h3 className="text-2xl font-bold mb-6">{content[activeTab as keyof typeof content].title}</h3>
+                <h3 className="text-2xl font-bold mb-6">{currentContent.title}</h3>
                 <p className="text-blue-100 leading-relaxed text-lg">
-                    {content[activeTab as keyof typeof content].text}
+                    {currentContent.text}
                 </p>
             </div>
         </div>
@@ -66,4 +58,3 @@ export default function DepartmentBenefits() {
     </section>
   );
 }
-

@@ -1,0 +1,120 @@
+{
+  "Navbar": {
+    "contact": "Contact Us",
+    "support": "Support"
+  },
+  "Hero": {
+    "title_start": "Automate Your HK Business Workflows with",
+    "title_highlight": "AI-Native Precision.",
+    "subtitle": "Bilingual sub-headline, nas vervillong needs. 實接正幫業務機能，和面機模組。",
+    "get_flow": "Get a new flow",
+    "laptop_text": "Hello New AI",
+    "floating": {
+      "ai": "AI",
+      "crm": "CRM",
+      "auto": "Auto",
+      "hr": "HR"
+    }
+  },
+  "Integrations": {
+    "label": "Frosted glass integration"
+  },
+  "CoreNodes": {
+    "title": "Core Nodes",
+    "subtitle": "Frosted glass conics with animator zed core nodes",
+    "nodes": {
+      "creative": {
+        "title": "Creative Nodes",
+        "description": "Automate a isestic such as ronp-isso werflers, mit rate widemniation and customioncal bovolers."
+      },
+      "workflow": {
+        "title": "Workflow Headline",
+        "description": "Ssternate a olanalc vortve interaction with the opening data, messaging, and one-time routes."
+      },
+      "module": {
+        "title": "Module Nodes",
+        "description": "Promo to conenct ouf core elabwiet-od code and assets a rouive team raoms management it at ensier."
+      }
+    },
+    "nodes2": {
+      "creative": {
+        "title": "Creative Nodes",
+        "description": "Automate a loans such as rang-iaso werffors, and rate inilliammotion and customized bovelors."
+      },
+      "workflow": {
+        "title": "Workflow Headline",
+        "description": "Estimate a stewlie vesioe interaction with the opening skills, messaging, and one-time routes."
+      },
+      "module": {
+        "title": "Module Nodes",
+        "description": "Promo to commit featcore elialzwet-ed code and assets a rooive team teams management it at oowor."
+      }
+    }
+  },
+  "DepartmentBenefits": {
+    "title": "Department-Specific Benefits",
+    "subtitle": "Denmen md axaes tranefics for department-specific benefits.",
+    "tabs": {
+      "finance": "Finance",
+      "hr": "HR",
+      "admin": "Admin",
+      "business": "Business",
+      "department": "Department",
+      "cfo": "CFO"
+    },
+    "content": {
+      "finance": {
+        "title": "Finance / Accounting",
+        "description": "Finance teams can automate invoice processing, expense approvals, and financial reporting with precision.",
+        "points": [
+          "Automated invoice extraction and processing.",
+          "Real-time expense tracking and approval workflows.",
+          "Seamless integration with major accounting software."
+        ]
+      },
+      "business": {
+        "title": "Business Operations",
+        "description": "Streamline daily operations and improve cross-departmental collaboration with automated workflows.",
+        "points": [
+          "Centralized project management and tracking.",
+          "Automated resource allocation and scheduling.",
+          "Enhanced communication between departments."
+        ]
+      },
+      "department": {
+        "title": "Department Specific",
+        "description": "Tailored solutions for various departments to address their unique challenges and requirements.",
+        "points": [
+          "Customizable workflow templates for specific needs.",
+          "Department-level analytics and reporting.",
+          "Scalable solutions that grow with your team."
+        ]
+      },
+      "cfo": {
+        "title": "Finance / CFO",
+        "description": "Finance / CFO is a customers target about equipment for orecs and customized department specific benefits orand what we excurtize your issues.",
+        "points": [
+          "Finance and santiness department extraction.",
+          "Business and businiss department overition.",
+          "Fumshce and department specifist of management."
+        ]
+      }
+    }
+  },
+  "FAQ": {
+    "q1": "What is your HK finance?",
+    "a1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "q2": "What is rs the about department?",
+    "a2": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "q3": "What is your HK-peetopoamidate?",
+    "a3": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    "q4": "How is your receipt amrent?",
+    "a4": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+  },
+  "Footer": {
+    "cta_title": "Get a Free Workflow Audit",
+    "cta_button": "Get a Free Workflow Audit",
+    "copyright": "Footer - Simple by HRFLOW AI"
+  }
+}
+

@@ -1,61 +1,25 @@
 'use client';
 
 import React, { useState } from 'react';
-
-const tabs = [
-  { id: 'finance', label: 'Finance' },
-  { id: 'business', label: 'Business' },
-  { id: 'department', label: 'Department' },
-  { id: 'cfo', label: 'CFO' },
-];
-
-const contentData = {
-  finance: {
-    title: 'Finance / Accounting',
-    description: 'Finance teams can automate invoice processing, expense approvals, and financial reporting with precision.',
-    points: [
-      'Automated invoice extraction and processing.',
-      'Real-time expense tracking and approval workflows.',
-      'Seamless integration with major accounting software.',
-    ],
-  },
-  business: {
-    title: 'Business Operations',
-    description: 'Streamline daily operations and improve cross-departmental collaboration with automated workflows.',
-    points: [
-      'Centralized project management and tracking.',
-      'Automated resource allocation and scheduling.',
-      'Enhanced communication between departments.',
-    ],
-  },
-  department: {
-    title: 'Department Specific',
-    description: 'Tailored solutions for various departments to address their unique challenges and requirements.',
-    points: [
-      'Customizable workflow templates for specific needs.',
-      'Department-level analytics and reporting.',
-      'Scalable solutions that grow with your team.',
-    ],
-  },
-  cfo: {
-    title: 'Finance / CFO',
-    description: 'Finance / CFO is a customers target about equipment for orecs and customized department specific benefits orand what we excurtize your issues.',
-    points: [
-      'Finance and santiness department extraction.',
-      'Business and businiss department overition.',
-      'Fumshce and department specifist of management.',
-    ],
-  },
-};
+import { useTranslations } from 'next-intl';
 
 export default function SecondBenefits() {
+  const t = useTranslations('DepartmentBenefits');
   const [activeTab, setActiveTab] = useState('cfo');
-  const activeContent = contentData[activeTab as keyof typeof contentData];
+
+  const tabs = [
+    { id: 'finance', label: t('tabs.finance') },
+    { id: 'business', label: t('tabs.business') },
+    { id: 'department', label: t('tabs.department') },
+    { id: 'cfo', label: t('tabs.cfo') },
+  ];
+
+  const contentKeys = ['finance', 'business', 'department', 'cfo'] as const;
 
   return (
     <section className="py-20 px-4 md:px-12 lg:px-24">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-gray-900 mb-4">Department-Specific Benefits</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h2>
       </div>
 
       <div className="max-w-5xl mx-auto">
@@ -78,16 +42,31 @@ export default function SecondBenefits() {
 
         {/* Content Card */}
         <div className="glass-card rounded-3xl p-8 md:p-12 min-h-[400px] flex flex-col justify-center relative overflow-hidden border border-white/60">
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">{activeContent.title}</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">{t(`content.${activeTab}.title`)}</h3>
             <p className="text-gray-600 mb-8 max-w-2xl">
-                {activeContent.description}
+                {t(`content.${activeTab}.description`)}
             </p>
 
             <ul className="space-y-3">
-                {activeContent.points.map((item, i) => (
+                 {/* 
+                    We need to access the array of points. 
+                    next-intl allows retrieving rich text or arrays via special handling or just by knowing keys.
+                    Since `points` is an array in JSON, we can use t.raw() if configured, or keys like points.0, points.1 
+                    But standard t() usually returns string.
+                    
+                    Better approach with next-intl for arrays: 
+                    keys are points.0, points.1, etc.
+                    We can iterate if we know the count, or use `tm = useMessages()` to inspect structure (but that exposes all messages).
+                    
+                    Let's assume max 3 points for now or try to use a helper. 
+                    Actually, `useTranslations` can return rich text but for arrays it's tricky without knowing length.
+                    
+                    Workaround: The JSON has 3 points for each. I will hardcode loop 0..2.
+                 */}
+                {[0, 1, 2].map((i) => (
                     <li key={i} className="flex items-center gap-3 text-gray-700">
                         <span className="w-2 h-2 rounded-full bg-purple-500"></span>
-                        {item}
+                        {t(`content.${activeTab}.points.${i}`)}
                     </li>
                 ))}
             </ul>

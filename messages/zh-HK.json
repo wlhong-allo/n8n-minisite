@@ -1,0 +1,120 @@
+{
+  "Navbar": {
+    "contact": "聯絡我們",
+    "support": "支援"
+  },
+  "Hero": {
+    "title_start": "以 AI 原生精準度自動化您的",
+    "title_highlight": "香港業務流程",
+    "subtitle": "雙語副標題，nas vervillong needs. 實接正幫業務機能，和面機模組。",
+    "get_flow": "獲取新流程",
+    "laptop_text": "你好，新 AI",
+    "floating": {
+      "ai": "人工智能",
+      "crm": "客戶關係",
+      "auto": "自動化",
+      "hr": "人力資源"
+    }
+  },
+  "Integrations": {
+    "label": "磨砂玻璃集成"
+  },
+  "CoreNodes": {
+    "title": "核心節點",
+    "subtitle": "磨砂玻璃錐體與動畫核心節點",
+    "nodes": {
+      "creative": {
+        "title": "創意節點",
+        "description": "自動化創意流程，例如 ronp-isso werflers，具有速率擴展和自定義 bovolers。"
+      },
+      "workflow": {
+        "title": "工作流程標題",
+        "description": "估算 stewlie vesioe 與開放技能、消息傳遞和一次性路由的交互。"
+      },
+      "module": {
+        "title": "模塊節點",
+        "description": "推廣連接我們的核心代碼和資產，以便團隊管理更輕鬆。"
+      }
+    },
+    "nodes2": {
+      "creative": {
+        "title": "創意節點",
+        "description": "自動化貸款，如 rang-iaso werffors，以及評分 inilliammotion 和定制 bovelors。"
+      },
+      "workflow": {
+        "title": "工作流程標題",
+        "description": "估算 stewlie vesioe 與開放技能、消息傳遞和一次性路由的交互。"
+      },
+      "module": {
+        "title": "模塊節點",
+        "description": "承諾 commit featcore elialzwet-ed 代碼和資產，以便團隊管理更輕鬆。"
+      }
+    }
+  },
+  "DepartmentBenefits": {
+    "title": "部門專屬優勢",
+    "subtitle": "為部門特定利益提供 Denmen md axaes tranefics。",
+    "tabs": {
+      "finance": "財務",
+      "hr": "人力資源",
+      "admin": "行政",
+      "business": "商業",
+      "department": "部門",
+      "cfo": "財務總監"
+    },
+    "content": {
+      "finance": {
+        "title": "財務 / 會計",
+        "description": "財務團隊可以精確自動化發票處理、費用審批和財務報告。",
+        "points": [
+          "自動化發票提取和處理。",
+          "實時費用跟踪和審批工作流程。",
+          "與主要會計軟件無縫集成。"
+        ]
+      },
+      "business": {
+        "title": "商業運營",
+        "description": "通過自動化工作流程簡化日常運營並改善跨部門協作。",
+        "points": [
+          "集中項目管理和跟踪。",
+          "自動化資源分配和調度。",
+          "增強部門之間的溝通。"
+        ]
+      },
+      "department": {
+        "title": "部門專屬",
+        "description": "針對各部門獨特挑戰和需求的定制解決方案。",
+        "points": [
+          "針對特定需求的可定制工作流程模板。",
+          "部門級分析和報告。",
+          "隨團隊成長的可擴展解決方案。"
+        ]
+      },
+      "cfo": {
+        "title": "財務 / 財務總監",
+        "description": "財務 / CFO 是關於設備的客戶目標，用於 orecs 和定制的部門特定利益，以及我們如何解決您的問題。",
+        "points": [
+          "財務和 santiness 部門提取。",
+          "商業和 businiss 部門覆蓋。",
+          "Fumshce 和管理部門專家。"
+        ]
+      }
+    }
+  },
+  "FAQ": {
+    "q1": "什麼是您的香港財務？",
+    "a1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "q2": "關於部門的是什麼？",
+    "a2": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "q3": "什麼是您的 HK-peetopoamidate？",
+    "a3": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    "q4": "您的收據 amrent 怎麼樣？",
+    "a4": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+  },
+  "Footer": {
+    "cta_title": "獲取免費工作流程審計",
+    "cta_button": "獲取免費工作流程審計",
+    "copyright": "頁腳 - Simple by HRFLOW AI"
+  }
+}
+

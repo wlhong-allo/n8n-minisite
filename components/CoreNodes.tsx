@@ -1,52 +1,89 @@
 import React from 'react';
+import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
-const nodes = [
-  {
-    title: "Creative Nodes",
-    description: "Automate a isestic such as ronp-isso werflers, mit rate widemniation and customioncal bovolers.",
-    icon: (
-      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-      </svg>
-    ),
-    color: "bg-cyan-500",
-  },
-  {
-    title: "Workflow Headline",
-    description: "Ssternate a olanalc vortve interaction with the opening data, messaging, and one-time routes.",
-    icon: (
-      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-      </svg>
-    ),
-    color: "bg-blue-500",
-  },
-  {
-    title: "Module Nodes",
-    description: "Promo to conenct ouf core elabwiet-od code and assets a rouive team raoms management it at ensier.",
-    icon: (
-      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
-      </svg>
-    ),
-    color: "bg-indigo-500",
-  },
-];
+type NodeItem = {
+  title: string;
+  description: string;
+  icon: React.ReactNode;
+  color: string;
+};
 
-export default function CoreNodes() {
+interface CoreNodesProps {
+  title?: string;
+  subtitle?: string;
+  items?: NodeItem[]; 
+}
+
+export default function CoreNodes({ 
+  items 
+}: CoreNodesProps) {
+  const t = useTranslations('CoreNodes');
+
+  // Default nodes using translations and image assets
+  const defaultNodes = [
+    {
+      title: t('nodes.creative.title'),
+      description: t('nodes.creative.description'),
+      icon: (
+        <Image 
+          src="/assets/icon1.png" 
+          alt="Creative Node" 
+          width={0} 
+          height={0} 
+          sizes="100px"
+          className="w-full h-full object-contain" 
+        />
+      ),
+      color: "bg-white/10 backdrop-blur-sm", 
+    },
+    {
+      title: t('nodes.workflow.title'),
+      description: t('nodes.workflow.description'),
+      icon: (
+        <Image 
+          src="/assets/icon2.png" 
+          alt="Workflow Node" 
+          width={0} 
+          height={0} 
+          sizes="100px"
+          className="w-full h-full object-contain" 
+        />
+      ),
+      color: "bg-white/10 backdrop-blur-sm",
+    },
+    {
+      title: t('nodes.module.title'),
+      description: t('nodes.module.description'),
+      icon: (
+        <Image 
+          src="/assets/icon3.png" 
+          alt="Module Node" 
+          width={0} 
+          height={0} 
+          sizes="100px"
+          className="w-full h-full object-contain" 
+        />
+      ),
+      color: "bg-white/10 backdrop-blur-sm",
+    },
+  ];
+
+  const displayNodes = items || defaultNodes;
+
   return (
     <section className="py-20 px-4 md:px-12 lg:px-24">
       <div className="text-center mb-16">
-        <h2 className="text-3xl font-bold text-gray-900 mb-4">Core Nodes</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Frosted glass conics with animator zed core nodes
+          {t('subtitle')}
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-        {nodes.map((node, index) => (
-          <div key={index} className="glass p-8 rounded-2xl hover:shadow-xl transition-shadow duration-300 border border-white/40">
-            <div className={`w-12 h-12 ${node.color} rounded-xl flex items-center justify-center mb-6 shadow-lg`}>
+        {displayNodes.map((node, index) => (
+          <div key={index} className="glass p-8 rounded-2xl hover:shadow-xl transition-shadow duration-300 border border-white/40 group">
+            <div className={`w-24 h-24 ${node.color} rounded-2xl flex items-center justify-center mb-6 shadow-sm group-hover:scale-110 transition-transform duration-300 p-4`}>
               {node.icon}
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-3">{node.title}</h3>
@@ -59,4 +96,3 @@ export default function CoreNodes() {
     </section>
   );
 }
-

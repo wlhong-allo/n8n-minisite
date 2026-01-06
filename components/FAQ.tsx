@@ -1,16 +1,18 @@
 'use client';
 
 import React, { useState } from 'react';
-
-const faqs = [
-  { question: "What is your HK finance?", answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-  { question: "What is rs the about department?", answer: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-  { question: "What is your HK-peetopoamidate?", answer: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." },
-  { question: "How is your receipt amrent?", answer: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum." },
-];
+import { useTranslations } from 'next-intl';
 
 export default function FAQ() {
+  const t = useTranslations('FAQ');
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const faqs = [
+    { question: t('q1'), answer: t('a1') },
+    { question: t('q2'), answer: t('a2') },
+    { question: t('q3'), answer: t('a3') },
+    { question: t('q4'), answer: t('a4') },
+  ];
 
   return (
     <section className="py-20 px-4 md:px-12 lg:px-24 max-w-4xl mx-auto">
@@ -43,4 +45,3 @@ export default function FAQ() {
     </section>
   );
 }
-
