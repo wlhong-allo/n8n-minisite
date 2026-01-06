@@ -9,6 +9,8 @@ import Footer from "@/components/Footer";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
+export const runtime = 'edge';
+
 export default async function Home() {
   const t = await getTranslations('CoreNodes');
 
