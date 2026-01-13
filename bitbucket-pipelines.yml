@@ -7,7 +7,6 @@ pipelines:
       - step: &build-image
           script:
             - pip install requests
-            - pip install awscli
             - export environment=production
             - ssh-keyscan -t rsa bitbucket.org >> ~/.ssh/known_hosts  
             - eval "$(ssh-agent -s)" &&  ssh-add - <<< `echo $GITADMIN_KEY | base64 -d -i`
@@ -17,6 +16,9 @@ pipelines:
             - echo $GCLOUD_API_KEYFILE | docker login -u _json_key_base64 --password-stdin asia-east2-docker.pkg.dev/dev-playground-366808
             - docker build --platform linux/amd64 -f Dockerfile -t ${GCR_REPO}:${version} .
             - docker push ${GCR_REPO}:${version}
+            - curl -sSL https://sdk.cloud.google.com | bash
+            - exec -l $SHELL
+            - gcloud -v
           after-script:
             - pip install requests
             - pip install retrying
