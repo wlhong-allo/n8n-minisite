@@ -14,7 +14,7 @@ pipelines:
             - git clone git@bitbucket.org:gitadmin/it-cicd-scripts.git cicd-scripts
             - export version="$(python3 cicd-scripts/version.py)"
             - export GCR_REPO=asia-east2-docker.pkg.dev/dev-playground-366808/n8n-minisite
-            - echo $GCLOUD_API_KEYFILE | docker login -u _json_key_base64 --password-stdin ${GCR_REPO}
+            - echo $GCLOUD_API_KEYFILE | docker login -u _json_key_base64 --password-stdin asia-east2-docker.pkg.dev/dev-playground-366808
             - docker build --platform linux/amd64 -f Dockerfile -t ${GCR_REPO}:${version} .
             - docker push ${GCR_REPO}:${version}
           after-script:
