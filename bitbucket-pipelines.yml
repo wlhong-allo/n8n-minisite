@@ -17,6 +17,7 @@ pipelines:
             - docker build --platform linux/amd64 -f Dockerfile -t ${GCR_REPO}:${version} .
             - docker push ${GCR_REPO}:${version}
             - curl -sSL https://sdk.cloud.google.com | bash
+            - source ~/.bashrc
             - gcloud -v
             - echo "$GCLOUD_API_KEYFILE" | base64 -d > api-key.json
             - gcloud auth activate-service-account --key-file api-key.json --project dev-playground-366808
