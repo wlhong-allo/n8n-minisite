@@ -21,10 +21,7 @@ pipelines:
             - gcloud -v
             - echo "$GCLOUD_API_KEYFILE" | base64 -d > api-key.json
             - gcloud auth activate-service-account --key-file api-key.json --project dev-playground-366808
-            - gcloud run deploy n8n-minisite \
-                --image=${GCR_REPO}:${version} \
-                --region=europe-west1 \
-                --platform=managed
+            - gcloud run deploy n8n-minisite --image=${GCR_REPO}:${version}--region=europe-west1 --platform=managed
           after-script:
             - pip install requests
             - pip install retrying
