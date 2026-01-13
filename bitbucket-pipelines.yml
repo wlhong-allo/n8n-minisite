@@ -1,0 +1,28 @@
+image: python:3.8
+pipelines:
+
+
+  branches:
+    main:
+      - step: &build-image
+          script:
+            - pip install requests
+            - pip install awscli
+            - export environment=production
+            - ssh-keyscan -t rsa bitbucket.org >> ~/.ssh/known_hosts  
+            - eval "$(ssh-agent -s)" &&  ssh-add - <<< `echo $GITADMIN_KEY | base64 -d -i`
+            - git clone git@bitbucket.org:gitadmin/it-cicd-scripts.git cicd-scripts
+            - export version="$(python3 cicd-scripts/version.py)"
+            - export GCR_REPO=asia-east2-docker.pkg.dev/dev-playground-366808/n8n-minisite
+            - echo $GCLOUD_API_KEYFILE | docker login -u _json_key_base64 --password-stdin asia-east1-docker.pkg.dev
+            - docker build --platform linux/amd64 -f Dockerfile -t ${GCR_REPO}:${version} .
+            - docker push ${GCR_REPO}:${version}
+          after-script:
+            - pip install requests
+            - pip install retrying
+            - export environment=staging
+            - export NEW_VERSION_NUMBER="$(python3 cicd-scripts/version.py get)"
+            - python cicd-scripts/notify.py
+          services:
+            - docker  
+            
