@@ -7,9 +7,6 @@ import SecondBenefits from "@/components/SecondBenefits";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import { getTranslations } from "next-intl/server";
-import Image from "next/image";
-
-export const runtime = 'edge';
 
 export default async function Home() {
   const t = await getTranslations('CoreNodes');
@@ -19,46 +16,31 @@ export default async function Home() {
       title: t('nodes2.creative.title'),
       description: t('nodes2.creative.description'),
       icon: (
-        <Image 
-          src="/assets/icon1.png" 
-          alt="Creative Node" 
-          width={0} 
-          height={0} 
-          sizes="100px"
-          className="w-full h-full object-contain" 
-        />
+        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
       ),
-      color: "bg-white/10 backdrop-blur-sm",
+      color: "bg-cyan-500",
     },
     {
       title: t('nodes2.workflow.title'),
       description: t('nodes2.workflow.description'),
       icon: (
-        <Image 
-          src="/assets/icon2.png" 
-          alt="Workflow Node" 
-          width={0} 
-          height={0} 
-          sizes="100px"
-          className="w-full h-full object-contain" 
-        />
+        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+        </svg>
       ),
-      color: "bg-white/10 backdrop-blur-sm",
+      color: "bg-blue-500",
     },
     {
       title: t('nodes2.module.title'),
       description: t('nodes2.module.description'),
       icon: (
-        <Image 
-          src="/assets/icon3.png" 
-          alt="Module Node" 
-          width={0} 
-          height={0} 
-          sizes="100px"
-          className="w-full h-full object-contain" 
-        />
+        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+        </svg>
       ),
-      color: "bg-white/10 backdrop-blur-sm",
+      color: "bg-indigo-500",
     },
   ];
 
