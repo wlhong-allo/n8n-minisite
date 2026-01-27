@@ -1,120 +1,1222 @@
 {
+  "Metadata": {
+    "title": "Aitivate - 香港企業智能自動化方案",
+    "description": "以AI原生精準度自動化您的香港業務流程。Aitivate為財務、人力資源和營運提供智能自動化解決方案。"
+  },
   "Navbar": {
-    "contact": "聯絡我們",
-    "support": "支援"
-  },
-  "Hero": {
-    "title_start": "以 AI 原生精準度自動化您的",
-    "title_highlight": "香港業務流程",
-    "subtitle": "雙語副標題，nas vervillong needs. 實接正幫業務機能，和面機模組。",
-    "get_flow": "獲取新流程",
-    "laptop_text": "你好，新 AI",
-    "floating": {
-      "ai": "人工智能",
-      "crm": "客戶關係",
-      "auto": "自動化",
-      "hr": "人力資源"
-    }
-  },
-  "Integrations": {
-    "label": "磨砂玻璃集成"
-  },
-  "CoreNodes": {
-    "title": "核心節點",
-    "subtitle": "磨砂玻璃錐體與動畫核心節點",
-    "nodes": {
-      "creative": {
-        "title": "創意節點",
-        "description": "自動化創意流程，例如 ronp-isso werflers，具有速率擴展和自定義 bovolers。"
+    "contact": "預約諮詢",
+    "support": "支援",
+    "solutions": {
+      "title": "解決方案",
+      "viewAll": "查看所有方案",
+      "finance": {
+        "title": "會計及財務",
+        "fps": "FPS 轉數快二維碼自動化",
+        "ocr": "OCR 文件管理",
+        "revenue": "收支週期文件",
+        "aging": "應收帳齡報告",
+        "reminder": "應收自動提醒"
       },
-      "workflow": {
-        "title": "工作流程標題",
-        "description": "估算 stewlie vesioe 與開放技能、消息傳遞和一次性路由的交互。"
-      },
-      "module": {
-        "title": "模塊節點",
-        "description": "推廣連接我們的核心代碼和資產，以便團隊管理更輕鬆。"
+      "hr": {
+        "title": "人力資源",
+        "freelancer": "自由工作者管理",
+        "payroll": "薪酬管理",
+        "talent": "人才市場情報",
+        "mpf": "強積金文件"
       }
     },
-    "nodes2": {
-      "creative": {
-        "title": "創意節點",
-        "description": "自動化貸款，如 rang-iaso werffors，以及評分 inilliammotion 和定制 bovelors。"
+    "caseStudies": "成功案例",
+    "technology": "技術",
+    "about": "關於我們"
+  },
+  "Hero": {
+    "title_start": "智能AI自動化方案",
+    "title_highlight": "",
+    "subtitle": "Aitivate專為香港企業打造智能工作流程，自動化您的財務、人力資源和營運。",
+    "cta_primary": "預約免費諮詢",
+    "cta_secondary": "了解更多"
+  },
+  "Integrations": {
+    "title": "與您現有工具無縫整合",
+    "subtitle": "連接您已在使用的平台"
+  },
+  "ValueProps": {
+    "title": "為何選擇 Aitivate",
+    "subtitle": "專為香港企業獨特需求而設的自動化方案",
+    "items": {
+      "speed": {
+        "title": "處理速度快10倍",
+        "description": "自動化重複性工作，數秒內處理文件，而非數小時。"
       },
-      "workflow": {
-        "title": "工作流程標題",
-        "description": "估算 stewlie vesioe 與開放技能、消息傳遞和一次性路由的交互。"
+      "accuracy": {
+        "title": "99.5% 準確率",
+        "description": "AI驅動驗證消除數據輸入和計算中的人為錯誤。"
       },
-      "module": {
-        "title": "模塊節點",
-        "description": "承諾 commit featcore elialzwet-ed 代碼和資產，以便團隊管理更輕鬆。"
+      "bilingual": {
+        "title": "多語言支援",
+        "description": "所有文件均支援英文和繁體中文原生處理。"
       }
     }
   },
   "DepartmentBenefits": {
-    "title": "部門專屬優勢",
-    "subtitle": "為部門特定利益提供 Denmen md axaes tranefics。",
+    "title": "各部門專屬方案",
+    "subtitle": "針對您特定工作流程挑戰的定制自動化",
     "tabs": {
       "finance": "財務",
       "hr": "人力資源",
-      "admin": "行政",
-      "business": "商業",
-      "department": "部門",
-      "cfo": "財務總監"
+      "operations": "營運"
     },
     "content": {
       "finance": {
-        "title": "財務 / 會計",
-        "description": "財務團隊可以精確自動化發票處理、費用審批和財務報告。",
+        "title": "財務及會計",
+        "description": "以AI精準度簡化發票處理、自動化對帳，並生成實時財務報告。",
         "points": [
-          "自動化發票提取和處理。",
-          "實時費用跟踪和審批工作流程。",
-          "與主要會計軟件無縫集成。"
+          "自動生成發票FPS二維碼",
+          "OCR驅動文件提取和歸檔",
+          "實時應收帳齡和現金流追蹤",
+          "自動付款提醒和跟進"
         ]
       },
-      "business": {
-        "title": "商業運營",
-        "description": "通過自動化工作流程簡化日常運營並改善跨部門協作。",
+      "hr": {
+        "title": "人力資源",
+        "description": "以智能自動化轉型人力資源運作，涵蓋薪酬、合規和人才管理。",
         "points": [
-          "集中項目管理和跟踪。",
-          "自動化資源分配和調度。",
-          "增強部門之間的溝通。"
+          "自動強積金計算和提交",
+          "自由工作者合約和付款管理",
+          "AI驅動人才市場情報",
+          "簡化入職和離職流程"
         ]
       },
-      "department": {
-        "title": "部門專屬",
-        "description": "針對各部門獨特挑戰和需求的定制解決方案。",
+      "operations": {
+        "title": "業務營運",
+        "description": "以智能工作流程連接整個營運，消除瓶頸和人手交接。",
         "points": [
-          "針對特定需求的可定制工作流程模板。",
-          "部門級分析和報告。",
-          "隨團隊成長的可擴展解決方案。"
-        ]
-      },
-      "cfo": {
-        "title": "財務 / 財務總監",
-        "description": "財務 / CFO 是關於設備的客戶目標，用於 orecs 和定制的部門特定利益，以及我們如何解決您的問題。",
-        "points": [
-          "財務和 santiness 部門提取。",
-          "商業和 businiss 部門覆蓋。",
-          "Fumshce 和管理部門專家。"
+          "跨部門工作流程自動化",
+          "文件路由和審批鏈",
+          "實時營運儀表板",
+          "與現有業務系統整合"
         ]
       }
     }
   },
+  "CaseStudiesSection": {
+    "title": "真實企業的真實成果",
+    "subtitle": "了解香港企業如何透過Aitivate轉型營運",
+    "viewAll": "查看所有案例"
+  },
   "FAQ": {
-    "q1": "什麼是您的香港財務？",
-    "a1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "q2": "關於部門的是什麼？",
-    "a2": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "q3": "什麼是您的 HK-peetopoamidate？",
-    "a3": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    "q4": "您的收據 amrent 怎麼樣？",
-    "a4": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+    "title": "常見問題",
+    "items": {
+      "q1": {
+        "question": "實施Aitivate方案需要多長時間？",
+        "answer": "大多數實施需要2-4週，視乎複雜程度而定。我們處理整個設置過程，包括與您現有系統的整合、員工培訓和持續支援。"
+      },
+      "q2": {
+        "question": "我的數據在Aitivate安全嗎？",
+        "answer": "絕對安全。我們完全符合香港個人資料私隱條例要求。所有數據均經加密，儲存在香港數據中心，我們絕不會與第三方分享您的資料。"
+      },
+      "q3": {
+        "question": "使用Aitivate需要技術專業知識嗎？",
+        "answer": "不需要技術知識。我們的方案專為業務用戶設計，介面直觀易用。我們為您的團隊提供全面培訓和持續支援。"
+      },
+      "q4": {
+        "question": "Aitivate可以與我現有的軟件整合嗎？",
+        "answer": "可以，我們與大多數流行的商業工具整合，包括Xero、QuickBooks、滙豐商業理財、Google Workspace、Microsoft 365等。亦可提供自定義整合。"
+      },
+      "q5": {
+        "question": "定價模式是怎樣的？",
+        "answer": "我們根據您的業務規模和需求提供靈活定價。預約免費諮詢以獲取定制報價。大多數客戶在首3個月內即可見到投資回報。"
+      }
+    }
   },
   "Footer": {
-    "cta_title": "獲取免費工作流程審計",
-    "cta_button": "獲取免費工作流程審計",
-    "copyright": "頁腳 - Simple by HRFLOW AI"
+    "cta_title": "準備好轉型您的業務了嗎？",
+    "cta_subtitle": "預約30分鐘免費諮詢，了解Aitivate如何自動化您的工作流程。",
+    "cta_button": "預約免費諮詢",
+    "copyright": "© 2026 Aitivate. 版權所有。",
+    "company": "Aitivate Limited",
+    "address": "香港",
+    "tagline": "香港企業工作流程的智能AI自動化方案。自動化您的財務、人力資源和營運。",
+    "sections": {
+      "solutions": "解決方案",
+      "company": "公司"
+    },
+    "links": {
+      "solutions": "解決方案",
+      "accountFinance": "會計及財務",
+      "humanResources": "人力資源",
+      "caseStudies": "成功案例",
+      "technology": "技術",
+      "about": "關於我們",
+      "events": "活動",
+      "privacy": "私隱政策",
+      "terms": "服務條款"
+    }
+  },
+  "Common": {
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "readMore": "閱讀更多",
+    "readCaseStudy": "閱讀案例",
+    "bookConsultation": "預約免費諮詢",
+    "freeConsultation": "30分鐘免費諮詢 • 無需任何承諾",
+    "wantResults": "想為您的企業取得同樣的成果嗎？",
+    "keyResult": "主要成果",
+    "breadcrumb": {
+      "home": "首頁",
+      "solutions": "解決方案",
+      "caseStudies": "成功案例",
+      "accountFinance": "會計及財務",
+      "humanResources": "人力資源"
+    }
+  },
+  "Solutions": {
+    "hub": {
+      "title": "香港企業AI自動化方案",
+      "subtitle": "探索專為香港企業獨特挑戰而設的自動化解決方案",
+      "finance": {
+        "title": "會計及財務方案",
+        "description": "以智能文件處理、付款自動化和實時報告自動化您的財務運作。"
+      },
+      "hr": {
+        "title": "人力資源方案",
+        "description": "以自動化薪酬、合規管理和AI驅動人才情報轉型人力資源。"
+      }
+    },
+    "fpsQrCode": {
+      "meta": {
+        "title": "FPS 轉數快二維碼自動化 | Aitivate",
+        "description": "自動生成並嵌入FPS二維碼到您的發票。加速收款並減少人手工作。"
+      },
+      "hero": {
+        "subtitle": "會計及財務",
+        "title": "以自動FPS二維碼加速收款",
+        "description": "自動生成並嵌入FPS二維碼到每張發票。客戶掃描即付，記錄自動更新。",
+        "cta": "預約免費諮詢"
+      },
+      "painPoints": {
+        "title": "收款的挑戰",
+        "subtitle": "人手收款流程耗費香港企業時間和金錢",
+        "points": [
+          {
+            "title": "收款週期緩慢",
+            "description": "客戶因銀行轉帳需要手動輸入帳戶資料而延遲付款。"
+          },
+          {
+            "title": "人手生成FPS碼",
+            "description": "為每張發票創建FPS二維碼既耗時又容易出錯。"
+          },
+          {
+            "title": "對帳煩惱",
+            "description": "將收到的付款與發票配對需要數小時人手核對。"
+          },
+          {
+            "title": "品牌形象不一致",
+            "description": "人手添加的FPS碼往往看起來不專業且不一致。"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "運作方式",
+        "subtitle": "從開單到收款對帳的無縫自動化",
+        "steps": [
+          {
+            "title": "創建發票",
+            "description": "在您的會計系統中如常生成發票"
+          },
+          {
+            "title": "自動生成FPS QR Code",
+            "description": "Aitivate自動創建包含正確金額的唯一FPS二維碼"
+          },
+          {
+            "title": "發送給客戶",
+            "description": "自動發送已嵌入FPS QR Code的發票"
+          },
+          {
+            "title": "自動對帳",
+            "description": "收到付款後自動與發票配對"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "轉變您的收款方式",
+        "subtitle": "從第一天起即可衡量的改善",
+        "items": [
+          {
+            "metric": "60%",
+            "title": "更快收款",
+            "description": "客戶只需掃描即付，付款更快"
+          },
+          {
+            "metric": "5小時",
+            "title": "每週節省",
+            "description": "消除人手生成FPS QR Code和對帳"
+          },
+          {
+            "metric": "99.2%",
+            "title": "準確率",
+            "description": "不再有付款金額錯誤或記錄不符"
+          }
+        ]
+      },
+      "faq": {
+        "title": "常見問題",
+        "items": [
+          {
+            "question": "支援Xero、QuickBooks、MYOB等主流會計軟件嗎？",
+            "answer": "我們的方案不受會計軟件限制，支援Xero、QuickBooks、MYOB及大多數主流會計系統所產生的發票。"
+          },
+          {
+            "question": "支援哪些香港銀行的FPS？（滙豐、恒生、中銀、渣打等）",
+            "answer": "我們的方案支援所有支援FPS的香港銀行，包括滙豐、恒生、中銀、渣打及所有其他參與銀行。"
+          },
+          {
+            "question": "可以自定義FPS QR Code外觀嗎？",
+            "answer": "可以，您可以添加公司標誌、調整顏色以配合品牌形象，並將FPS QR Code放置在發票模板的任何位置。"
+          },
+          {
+            "question": "自動對帳如何運作？",
+            "answer": "每個FPS QR Code包含唯一參考編號。收到付款時，我們的系統自動將其與正確發票配對並更新您的記錄。"
+          }
+        ]
+      },
+      "cta": {
+        "title": "今天開始加速收款",
+        "subtitle": "預約免費諮詢，了解FPS二維碼自動化如何轉變您的收款方式。",
+        "button": "預約免費諮詢"
+      }
+    },
+    "ocrDocument": {
+      "meta": {
+        "title": "OCR 文件管理 | Aitivate",
+        "description": "以AI驅動OCR自動從發票、收據和文件提取數據。減少90%人手數據輸入。"
+      },
+      "hero": {
+        "subtitle": "會計及財務",
+        "title": "將文件處理時間縮減 90%，釋放團隊核心價值",
+        "description": "專為香港企業打造的 AI OCR 技術，精準識別各類發票、收據及 HR 文件。完美支援中英雙語內容，消除人手輸入誤差，讓財務與人事部門專注於更高價值的決策分析。",
+        "cta": "預約免費諮詢"
+      },
+      "painPoints": {
+        "title": "人手作業的隱形成本",
+        "subtitle": "效率低下與合規風險，正在蠶食企業的營運利潤",
+        "points": [
+          {
+            "title": "人力資源錯配",
+            "description": "您的專業團隊不應被低價值的數據輸入捆綁。將耗時的紙本輸入自動化，讓員工專注於財務分析與策略性決策。"
+          },
+          {
+            "title": "數據準確性風險",
+            "description": "人手轉錄難免出現打字或金額錯誤，導致賬目不符、重複付款及合規漏洞，大幅增加核數與修正成本。"
+          },
+          {
+            "title": "雙語處理樽頸",
+            "description": "一般系統難以準確識別香港常見的中英夾雜單據。我們的 AI 專為本地商業環境優化，消除因語言切換導致的流程停滯。"
+          },
+          {
+            "title": "審計追蹤缺失",
+            "description": "紙本收據易於遺失、褪色或歸檔錯誤，造成稅務申報困難。數碼化存檔確保每一筆交易均可隨時追溯，滿足嚴格的審計要求。"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "無縫銜接的智能工作流",
+        "subtitle": "只需四步，將雜亂單據轉化為決策數據",
+        "steps": [
+          {
+            "title": "多源頭靈活擷取",
+            "description": "全渠道支援手機 App、電郵及批量上傳。即時集中處理各類紙本與電子單據。"
+          },
+          {
+            "title": "高精度智能識別",
+            "description": "AI 精準識別中英雙語內容。自動抓取日期、金額及稅項，徹底免除人手輸入。"
+          },
+          {
+            "title": "自動化合規驗證",
+            "description": "自動偵測重複報銷及數據異常。智能標記風險項目，確保合規零漏洞。"
+          },
+          {
+            "title": "無縫對接系統",
+            "description": "直接對接 ERP 及會計系統。一鍵同步結構化數據，大幅縮短月結週期。"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "對您業務的影響",
+        "subtitle": "智能文件處理的真實成果",
+        "items": [
+          {
+            "metric": "90%",
+            "title": "減少人手輸入",
+            "description": "讓您的團隊從繁瑣的數據輸入中解放"
+          },
+          {
+            "metric": "3秒",
+            "title": "每份文件",
+            "description": "數秒內處理文件，而非數分鐘"
+          },
+          {
+            "metric": "100%",
+            "title": "可搜索存檔",
+            "description": "每份文件均已索引，可即時搜索"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "量化企業效益",
+        "subtitle": "以數據實證智能轉型的商業價值",
+        "items": [
+          {
+            "metric": "90%",
+            "title": "削減人手作業成本",
+            "description": "徹底消除重複性數據輸入，讓團隊專注於高價值的財務分析與管理。"
+          },
+          {
+            "metric": "<3秒",
+            "title": "實現實時數據同步",
+            "description": "極速完成識別與驗證，大幅縮短報銷審批及月結週期。"
+          },
+          {
+            "metric": "100%",
+            "title": "無縫應對審計合規",
+            "description": "所有文件自動建立索引與數碼存檔，隨時滿足內部稽核與稅務查詢需求。"
+          }
+        ]
+      },
+      "faq": {
+        "title": "常見問題",
+        "items": [
+          {
+            "question": "系統支援識別哪些類型的香港商業文件？",
+            "answer": "我們的 OCR 引擎專為香港商業環境優化，可精準處理發票 (Invoices)、各類收據 (Receipts)、採購訂單 (PO)、銀行對賬單及合約。系統能完美識別繁體中文、英文及中英夾雜的內容。"
+          },
+          {
+            "question": "對於手寫單據或熱敏紙，識別準確率如何？",
+            "answer": "針對印刷文件，準確率高達 99% 以上。對於手寫文字（如的士收據）或褪色的熱敏紙，系統內置 AI 圖像增強技術，能有效清晰化影像，確保關鍵數據擷取準確。"
+          },
+          {
+            "question": "系統如何處理圖像質量較差的掃描文件？",
+            "answer": "系統配備智能影像處理功能，能自動校正傾斜、去噪及增強對比度。即使是手機拍攝的低光照片或摺皺文件，亦能保持極高的識別水平。"
+          }
+        ]
+      },
+      "cta": {
+        "title": "立即啟動財務運營自動化",
+        "subtitle": "預約企業方案演示，親身體驗如何將繁瑣的紙本流程轉化為競爭優勢。",
+        "button": "預約免費企業諮詢"
+      }
+    },
+    "revenueCycle": {
+        "meta": {
+          "title": "營收週期自動化管理 | Aitivate",
+          "description": "優化從報價到收款 (Quote-to-Cash) 的全流程。消除數據孤島，加速企業現金回籠。"
+        },
+        "hero": {
+          "subtitle": "智能財務運營",
+          "title": "加速企業營收循環 (Revenue Cycle)",
+          "description": "實現從報價、訂單到發票的無縫自動化。打破部門間的數據隔閡，顯著縮短應收賬款天數 (DSO)，提升現金流預測能力。",
+          "cta": "預約企業方案演示"
+        },
+        "painPoints": {
+          "title": "營收流程的隱形樽頸",
+          "subtitle": "斷層的作業流程，正在拖慢您的現金轉換效率",
+          "points": [
+            {
+              "title": "行政成本高昂",
+              "description": "人手編制報價單與發票不僅耗時，更易產生人為錯誤，導致後續的付款爭議與修正成本。"
+            },
+            {
+              "title": "跨系統數據孤島",
+              "description": "銷售 (CRM)、營運與財務系統缺乏連接，導致數據需重複輸入，資訊傳遞滯後。"
+            },
+            {
+              "title": "現金流可視性低",
+              "description": "管理層無法實時掌握訂單狀態與預期收款進度，難以進行精準的現金流預測與規劃。"
+            },
+            {
+              "title": "應收賬款 (DSO) 過長",
+              "description": "開單延遲及缺乏系統化的催收流程，直接拉長了現金轉換週期，影響資金周轉。"
+            }
+          ]
+        },
+        "howItWorks": {
+          "title": "全鏈路自動化流程",
+          "subtitle": "打通 Quote-to-Cash 的每一個關鍵節點",
+          "steps": [
+            {
+              "title": "智能報價 (Quote)",
+              "description": "一鍵生成專業報價單。客戶確認後，系統自動將其轉化為正式銷售訂單，無需重複輸入。"
+            },
+            {
+              "title": "訂單履行 (Order)",
+              "description": "訂單確認即時觸發後續流程，自動同步至庫存或服務部門，並預備開單數據。"
+            },
+            {
+              "title": "自動開單 (Invoice)",
+              "description": "系統根據訂單條款自動生成並發送發票。支援嵌入網上付款連結，方便客戶即時結算。"
+            },
+            {
+              "title": "收款與對賬 (Collect)",
+              "description": "自動追蹤付款狀態並發出到期提醒。收到款項後自動進行對賬 (Reconciliation)，更新財務記錄。"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "驅動業務增長",
+          "subtitle": "以更快的周轉速度，構建更健康的現金流",
+          "items": [
+            {
+              "metric": "40%",
+              "title": "縮短現金轉換週期",
+              "description": "大幅減少從報價到實際收款的時間差 (DSO)。"
+            },
+            {
+              "metric": "100%",
+              "title": "消除計費錯誤",
+              "description": "杜絕因數據搬運產生的發票金額或條款錯誤，減少爭議。"
+            },
+            {
+              "metric": "實時",
+              "title": "實時財務洞察",
+              "description": "即時儀表板 (Dashboard) 監控每筆交易狀態，精準預測現金流。"
+            }
+          ]
+        },
+        "faq": {
+          "title": "常見問題與系統整合",
+          "items": [
+            {
+              "question": "能否與現有的 CRM 或 ERP 系統整合？",
+              "answer": "可以。我們提供與主流平台（如 Salesforce, HubSpot, Microsoft Dynamics, Zoho）的無縫整合，確保銷售與財務數據實時同步。"
+            },
+            {
+              "question": "如何處理多幣種業務 (Multi-currency)？",
+              "answer": "系統專為國際貿易設計，完全支援港幣 (HKD)、美元 (USD)、人民幣 (RMB) 等多國貨幣，並可連接實時匯率，自動計算損益。"
+            },
+            {
+              "question": "系統是否具備審批權限管理？",
+              "answer": "具備嚴謹的內部監控功能。您可以設定報價折扣上限及審批流程 (Approval Workflow)，管理人員可隨時透過手機 App 進行核准。"
+            }
+          ]
+        },
+        "cta": {
+          "title": "優化您的營收週期管理",
+          "subtitle": "立即預約諮詢，了解連接自動化如何助您加速現金回籠。",
+          "button": "預約免費專家諮詢"
+        }
+      },
+      "freelancerManagement": {
+      "meta": {
+        "title": "外部協作團隊管理系統 | Aitivate",
+        "description": "一站式管理自由工作者 (Freelancers) 的入職、合約與結算。確保企業在擴展靈活勞動力時，兼顧合規性與營運效率。"
+      },
+      "hero": {
+        "subtitle": "人力資源與財務協作",
+        "title": "全方位管理外部協作團隊",
+        "description": "將自由工作者的入職審查、合約簽署及自動化付款集中管理。助您在保持組織敏捷性的同時，嚴格把控合規風險 (Compliance Risk)。",
+        "cta": "預約企業方案演示"
+      },
+      "painPoints": {
+        "title": "靈活勞動力的管理黑洞",
+        "subtitle": "分散的外部人員管理，正為企業帶來行政負擔與法律風險",
+        "points": [
+          {
+            "title": "入職流程欠缺規範",
+            "description": "人手收集身份證明、銀行資料及過往作品集耗時費力，且難以確保資料齊全，延誤項目開展。"
+          },
+          {
+            "title": "多幣種結算與對賬繁瑣",
+            "description": "面對不同地區的付款條款與貨幣（如港幣、美元、人民幣），財務部需耗費大量時間處理匯款與核對賬目。"
+          },
+          {
+            "title": "假自僱與稅務合規風險",
+            "description": "若未能妥善管理合約條款與稅務文件，企業隨時面臨「假自僱」指控及勞工法例下的法律責任。"
+          },
+          {
+            "title": "欠缺統一管理視圖",
+            "description": "人員資料散落在電郵、通訊軟體與試算表中，管理層難以評估外部團隊的整體成本與績效。"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "標準化管理流程",
+        "subtitle": "覆蓋從簽約到付款的完整生命週期",
+        "steps": [
+          {
+            "title": "數碼化入職 (Onboarding)",
+            "description": "透過自助入口網站，自動收集身份文件及稅務資料，並進行合規篩查。"
+          },
+          {
+            "title": "智能合約簽署",
+            "description": "根據預設模板自動生成合約，支援具有法律效力的電子簽名 (E-Signature)。"
+          },
+          {
+            "title": "交付與驗收",
+            "description": "系統化追蹤項目進度與交付物 (Deliverables)，確保工作完成後才觸發付款流程。"
+          },
+          {
+            "title": "自動化結算",
+            "description": "批量處理跨國付款，並自動生成對應的發票與稅務憑證，簡化財務月結。"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "構建敏捷合規的外部團隊",
+        "subtitle": "在不增加行政編制的前提下，無限擴展您的勞動力",
+        "items": [
+          {
+            "metric": "70%",
+            "title": "縮短入職週期",
+            "description": "將新人員的審查與簽約時間從數天大幅縮減至數小時。"
+          },
+          {
+            "metric": "100%",
+            "title": "確保審計合規",
+            "description": "每筆支出均附帶完整的合約與驗收記錄，隨時應對內部稽核。"
+          },
+          {
+            "metric": "1",
+            "title": "單一真相來源 (SSOT)",
+            "description": "透過中央儀表板，實時監控所有外部人員的成本、合約狀態與績效。"
+          }
+        ]
+      },
+      "faq": {
+        "title": "常見問題與合規支援",
+        "items": [
+          {
+            "question": "系統支援哪些貨幣支付？",
+            "answer": "我們支援全球主流貨幣結算（包括港幣、美元、歐元等）。系統會自動鎖定匯率並生成合規的付款憑證，減輕財務部的匯兌工作。"
+          },
+          {
+            "question": "自由工作者如何提交發票或工時？",
+            "answer": "自由工作者擁有專屬的供應商入口網站 (Vendor Portal)，可自行上傳發票、申報工時及追蹤審批與付款進度，無需透過電郵來回確認。"
+          },
+          {
+            "question": "系統如何協助降低「假自僱」風險？",
+            "answer": "系統內置標準合約模板與文件收集清單，確保雙方關係定義清晰，並完整保存所有服務協議與稅務記錄，以滿足勞工處與稅務局的合規要求。"
+          },
+          {
+            "question": "能否設定付款審批權限？",
+            "answer": "可以。您可以根據金額大小或部門，自定義多層級的審批工作流 (Approval Workflow)。所有付款在發出前必須經過授權人員數碼核准。"
+          }
+        ]
+      },
+      "cta": {
+        "title": "優化外部勞動力運營",
+        "subtitle": "立即預約諮詢，體驗如何合規且高效地管理您的自由工作者團隊。",
+        "button": "預約免費專家諮詢"
+      }
+    },
+    "payrollManagement": {
+      "meta": {
+        "title": "智能薪酬與合規管理 | Aitivate",
+        "description": "專為香港企業設計的自動化薪酬系統。一站式處理 713 平均工資、強積金供款、稅務申報 (IR56) 及銀行自動轉賬。"
+      },
+      "hero": {
+        "subtitle": "人力資源與財務整合",
+        "title": "零失誤的企業級薪酬管理",
+        "description": "自動化處理複雜的薪酬運算、強積金合規與銀行轉賬。將耗時數天的計糧工序縮減至數分鐘，確保數據精準無誤。",
+        "cta": "預約企業方案演示"
+      },
+      "painPoints": {
+        "title": "傳統計糧的潛在風險",
+        "subtitle": "人手運算不僅效率低，更隱藏合規陷阱",
+        "points": [
+          {
+            "title": "運算複雜且易錯",
+            "description": "處理「713 條例」平均工資 (ADW)、加班費、津貼及缺勤扣除時，人手試算表極易出現計算偏差。"
+          },
+          {
+            "title": "法規遵從壓力",
+            "description": "強積金 (MPF) 供款上限調整及稅務局 (IRD) 的報稅要求頻繁更新，增加合規風險。"
+          },
+          {
+            "title": "行政效率低落",
+            "description": "每月薪酬週期佔用 HR 與財務部大量時間，阻礙團隊專注於人才發展與數據分析。"
+          },
+          {
+            "title": "銀行對接繁瑣",
+            "description": "人手製作銀行自動轉賬檔案 (Autopay File) 步驟繁複，格式錯誤常導致過數失敗。"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "全自動化計糧流程",
+        "subtitle": "從考勤數據到銀行出糧的無縫銜接",
+        "steps": [
+          {
+            "title": "數據同步",
+            "description": "自動匯入考勤記錄、假期審批及佣金數據，消除人手輸入誤差。"
+          },
+          {
+            "title": "智能運算",
+            "description": "系統依據僱傭條例自動計算基本薪金、713 平均工資、強積金及各類扣除項。"
+          },
+          {
+            "title": "審批與核對",
+            "description": "提供清晰的差異分析報告 (Variance Report)，智能標記異常數據供管理層快速審批。"
+          },
+          {
+            "title": "支付與申報",
+            "description": "一鍵生成銀行轉賬檔案、強積金供款結算書及電子糧單 (e-Payslips)。"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "提升薪酬運營效能",
+        "subtitle": "以科技確保準確性、合規性與時效性",
+        "items": [
+          {
+            "metric": "95%",
+            "title": "縮短結算週期",
+            "description": "大幅節省核對時間，讓薪酬發放更準時、更高效。"
+          },
+          {
+            "metric": "100%",
+            "title": "符合法規要求",
+            "description": "內置香港勞工法例邏輯，自動處理強積金與稅務規則。"
+          },
+          {
+            "metric": "0",
+            "title": "計算人為錯誤",
+            "description": "透過系統化驗證，杜絕溢付或少付的情況發生。"
+          }
+        ]
+      },
+      "faq": {
+        "title": "常見問題與合規",
+        "items": [
+          {
+            "question": "系統是否支援香港強積金 (MPF) 的複雜計算？",
+            "answer": "完全支援。系統自動處理強制性及自願性供款、新員工免供期及入息上限計算，並可直接輸出主要受託人（如滙豐、宏利、友邦）要求的供款結算檔案。"
+          },
+          {
+            "question": "能否處理不同的出糧週期與僱傭模式？",
+            "answer": "支援高度靈活設定。無論是月薪、日薪、時薪，或是雙週/每週出糧，系統均能針對不同員工群組（如全職、兼職、合約工）設定獨立邏輯。"
+          },
+          {
+            "question": "支援哪些銀行的自動轉賬功能？",
+            "answer": "我們支援香港所有主要銀行（包括滙豐、恒生、中銀、渣打等）的標準 Autopay 檔案格式，確保過數流程暢通無阻。"
+          },
+          {
+            "question": "系統能協助處理年度報稅嗎？",
+            "answer": "可以。系統能自動彙整年度薪酬數據，並生成 IR56B、IR56E、IR56F、IR56G 及 IR56M 等標準稅務表格，亦支援 XML 格式直接上傳至稅務局平台。"
+          }
+        ]
+      },
+      "cta": {
+        "title": "體驗無憂薪酬管理",
+        "subtitle": "立即預約諮詢，了解如何透過自動化消除計糧壓力與合規隱憂。",
+        "button": "預約免費專家諮詢"
+      }
+    },
+    "talentIntelligence": {
+      "meta": {
+        "title": "人才市場大數據情報 | Aitivate",
+        "description": "專為香港企業打造的 AI 人才洞察引擎。實時掌握薪酬基準、技能供需趨勢及競爭對手動向，助您制定精準的人力策略。"
+      },
+      "hero": {
+        "subtitle": "策略性人力資源規劃",
+        "title": "以數據驅動人才決策",
+        "description": "摒棄憑直覺招聘。利用 AI 驅動的實時市場情報，精準掌握香港薪酬趨勢、緊缺技能分佈及人才流動方向，優化招聘 ROI。",
+        "cta": "預約企業方案演示"
+      },
+      "painPoints": {
+        "title": "傳統招聘的盲點",
+        "subtitle": "缺乏數據支持的人才策略，往往導致資源錯配與人才流失",
+        "points": [
+          {
+            "title": "市場數據嚴重滯後",
+            "description": "傳統年度薪酬調查報告發布時數據已過時，無法反映當下瞬息萬變的人才市場。"
+          },
+          {
+            "title": "缺乏競爭視野",
+            "description": "難以掌握競爭對手（Competitors）的薪酬福利結構，導致 Offer 缺乏競爭力或過度溢價。"
+          },
+          {
+            "title": "技能供需錯配",
+            "description": "不清楚哪些新興技能（如 AI、ESG）在市場上最為稀缺，難以制定合理預算。"
+          },
+          {
+            "title": "被動式人才獲取",
+            "description": "往往等到職位空缺出現才開始了解市場，缺乏前瞻性的人才儲備與規劃。"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "全方位情報蒐集引擎",
+        "subtitle": "將海量市場雜訊轉化為可執行的策略洞察",
+        "steps": [
+          {
+            "title": "大數據匯聚",
+            "description": "AI 實時抓取招聘廣告、政府統計處數據、行業報告及匿名薪酬數據庫。"
+          },
+          {
+            "title": "智能趨勢分析",
+            "description": "運用機器學習識別薪酬升幅趨勢、人才流動模式及熱門技能需求。"
+          },
+          {
+            "title": "精準薪酬對標",
+            "description": "針對特定職位、經驗及行業，將您的薪酬方案與實時市場中位數進行比對。"
+          },
+          {
+            "title": "策略性建議",
+            "description": "系統自動生成招聘策略建議，包括最佳定價範圍與人才來源渠道。"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "決勝人才爭奪戰",
+        "subtitle": "從被動響應轉向主動佈局",
+        "items": [
+          {
+            "metric": "Real-time",
+            "title": "實時市場脈搏",
+            "description": "掌握每週更新的薪酬與人才供需數據，而非去年的歷史記錄。"
+          },
+          {
+            "metric": "30%",
+            "title": "提升 Offer 接受率",
+            "description": "基於數據的精準定價，大幅減少因薪酬落差導致的候選人拒絕。"
+          },
+          {
+            "metric": "Lower",
+            "title": "降低人才流失率",
+            "description": "透過主動檢視內部薪酬競爭力，及時調整留才策略，防止核心員工跳槽。"
+          }
+        ]
+      },
+      "faq": {
+        "title": "常見問題與數據來源",
+        "items": [
+          {
+            "question": "市場數據的具體來源是什麼？",
+            "answer": "我們聚合了多個高信度來源，包括主流招聘平台、專業行業調查、政府公開統計數據，以及合作企業的匿名實時薪酬數據庫。"
+          },
+          {
+            "question": "數據更新頻率如何？",
+            "answer": "系統每週進行數據更新與清洗，確保您獲取的市場情報反映當下的供需狀況，遠勝於年度調查報告。"
+          },
+          {
+            "question": "可以針對細分職位進行基準比較 (Benchmarking) 嗎？",
+            "answer": "可以。您可以根據職稱 (Job Title)、所需技能、工作經驗年資及特定行業，生成精細化的薪酬百分位報告 (Percentile Ranking)。"
+          },
+          {
+            "question": "數據覆蓋範圍是否包含大灣區？",
+            "answer": "是的。我們以香港市場為核心，並延伸覆蓋至大灣區 (GBA) 主要城市，助您制定跨境人才管理策略。"
+          }
+        ]
+      },
+      "cta": {
+        "title": "掌握人才競爭優勢",
+        "subtitle": "立即預約諮詢，讓數據成為您招聘與留才的最強後盾。",
+        "button": "預約免費專家諮詢"
+      }
+    },
+    "mpfDocuments": {
+      "meta": {
+        "title": "強積金合規管理系統 | Aitivate",
+        "description": "自動化強積金 (MPF) 供款計算、結算書生成及申報。確保企業完全符合積金局法規要求，避免附加費罰款。"
+      },
+      "hero": {
+        "subtitle": "人力資源與法規遵從",
+        "title": "由繁入簡：智能強積金 (MPF) 合規方案",
+        "description": "告別手動計算與填表的繁瑣。自動化處理供款結算、新僱員登記及受託人申報，確保零誤差、零罰款。",
+        "cta": "預約企業方案演示"
+      },
+      "painPoints": {
+        "title": "強積金行政的隱形炸彈",
+        "subtitle": "人手處理不僅效率低，更面臨積金局查核風險",
+        "points": [
+          {
+            "title": "有關入息定義複雜",
+            "description": "計算首次供款、免供期、自願性供款及花紅時，人手運算極易混淆法規定義，導致供款錯誤。"
+          },
+          {
+            "title": "遲供款附加費風險",
+            "description": "錯過每月供款日（通常為10號）將面臨 5% 附加費及積金局調查，嚴重影響企業聲譽。"
+          },
+          {
+            "title": "行政存檔壓力",
+            "description": "法例要求僱主保存供款紀錄最少七年。紙本管理難以檢索，增加內部審計難度。"
+          },
+          {
+            "title": "受託人對接標準不一",
+            "description": "不同受託人（如滙豐、宏利）的供款結算書格式各異，人手轉換格式耗時且易錯。"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "全流程自動化申報",
+        "subtitle": "從薪酬計算到受託人對接的端到端解決方案",
+        "steps": [
+          {
+            "title": "智能運算",
+            "description": "依據薪酬數據，自動區分強制性與自願性供款，精準計算僱主與僱員供款額。"
+          },
+          {
+            "title": "合規驗證",
+            "description": "系統內置法規檢查邏輯，自動偵測上下限異常及入職/離職供款計算是否準確。"
+          },
+          {
+            "title": "一鍵申報",
+            "description": "自動生成各大受託人標準格式的供款結算書 (Remittance Statement)，支援直接上傳。"
+          },
+          {
+            "title": "數碼存檔",
+            "description": "所有供款紀錄與僱員報表自動歸檔，建立完整的審計軌跡 (Audit Trail)。"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "構建無憂合規體系",
+        "subtitle": "以科技確保準確性，消除行政滯後",
+        "items": [
+          {
+            "metric": "100%",
+            "title": "法規遵從度",
+            "description": "杜絕因計算錯誤導致的供款差額與合規漏洞。"
+          },
+          {
+            "metric": "0",
+            "title": "遲交罰款風險",
+            "description": "自動化提醒與快速結算，確保在截止日前完成申報。"
+          },
+          {
+            "metric": "Audit",
+            "title": "隨時應對稽核",
+            "description": "清晰的數碼化紀錄，讓外部核數師與積金局查詢更加順暢。"
+          }
+        ]
+      },
+      "faq": {
+        "title": "常見問題與受託人支援",
+        "items": [
+          {
+            "question": "系統支援哪些強積金受託人 (Trustees)？",
+            "answer": "我們支援香港所有主流受託人，包括宏利 (Manulife)、友邦 (AIA)、滙豐 (HSBC)、永明 (Sun Life) 及 BCT 銀聯。系統可輸出各平台專用的供款檔案格式。"
+          },
+          {
+            "question": "能否處理自願性供款 (Voluntary Contributions)？",
+            "answer": "完全支援。系統可靈活設定不同職級的僱主自願性供款比例，以及處理僱員的可扣稅自願性供款 (TVC) 安排。"
+          },
+          {
+            "question": "如何處理新僱員登記？",
+            "answer": "系統會自動生成標準的新僱員參加表格，並在首次供款文件中包含所需的登記資料，簡化入職行政工作。"
+          },
+          {
+            "question": "僱員能否自行查閱強積金紀錄？",
+            "answer": "可以。僱員可透過自助平台 (Employee Self-Service) 隨時查看每月的供款詳情及下載電子供款紀錄，增加透明度。"
+          }
+        ]
+      },
+      "cta": {
+        "title": "消除強積金管理痛點",
+        "subtitle": "立即預約諮詢，體驗如何將繁瑣的法規遵循轉化為自動化流程。",
+        "button": "預約免費專家諮詢"
+      }
+    }
+  },
+  "CaseStudies": {
+    "hub": {
+      "title": "客戶成功案例",
+      "subtitle": "見證香港企業如何透過 Aitivate 實現數碼轉型與營運升級"
+    },
+    "talentMarketTrend": {
+      "meta": {
+        "title": "招聘顧問公司如何利用 AI 掌握人才趨勢 | Aitivate",
+        "description": "了解香港領先的獵頭公司如何透過實時 AI 人才情報，提升薪酬建議精準度並贏得更多企業合約。"
+      },
+      "title": "以數據驅動的顧問轉型",
+      "category": "人力資源 (HR)",
+      "excerpt": "一家本地領先的招聘顧問公司，透過實時人才市場大數據，成功從傳統中介轉型為策略性人才合作夥伴。",
+      "hero": {
+        "headline": "從「職位配對」到「策略顧問」的進化",
+        "result": "客戶留存率激增 40%"
+      },
+      "challenge": {
+        "title": "面臨挑戰",
+        "content": "作為一家中型招聘公司，面對大型跨國對手的競爭，他們發現傳統依賴「年度薪酬報告」與「個人經驗」的模式已無法滿足精明的企業 HR 客戶。客戶需要的是當下的市場實況，而非去年的歷史數據。",
+        "points": [
+          "過時的薪酬數據導致建議缺乏說服力",
+          "在競標企業合約 (Retainer) 時缺乏獨特數據優勢",
+          "顧問需耗費大量工時人手搜集市場情報",
+          "無法量化特定技能 (Skillsets) 的供需趨勢"
+        ]
+      },
+      "solution": {
+        "title": "解決方案",
+        "content": "引入 Aitivate 的人才市場情報系統 (Talent Intelligence)，為顧問團隊裝備 AI 實時數據引擎，將市場洞察轉化為業務資產。",
+        "features": [
+          "針對特定職位與行業的實時薪酬基準 (Benchmarking)",
+          "緊缺技能供需與人才流動趨勢追蹤",
+          "一鍵生成專業的市場分析白皮書作客戶演示",
+          "競爭對手招聘動向監測"
+        ]
+      },
+      "results": {
+        "title": "轉型成果",
+        "metrics": [
+          { "value": "40%", "label": "客戶留存率 (Retention Rate)" },
+          { "value": "3x", "label": "顧問諮詢業務增長" },
+          { "value": "5小時", "label": "每位顧問每週節省之研究工時" }
+        ]
+      },
+      "testimonial": {
+        "quote": "",
+        "author": "",
+        "role": "",
+        "company": ""
+      },
+      "cta": {
+        "title": "準備好提升您的顧問價值了嗎？",
+        "subtitle": "了解 Aitivate 如何助您贏得更多高價值合約。",
+        "button": "預約行業方案演示"
+      }
+    },
+    "fpsInvoice": {
+      "meta": {
+        "title": "貿易公司如何利用 FPS 自動化加速現金流 | Aitivate",
+        "description": "香港貿易公司透過發票自動嵌入 FPS 二維碼及自動對賬，成功將應收賬款天數 (DSO) 縮短 60%。"
+      },
+      "title": "FPS 自動化與現金流優化",
+      "category": "財務與會計",
+      "excerpt": "一家進出口貿易公司透過在發票整合 FPS 轉數快二維碼與自動對賬，徹底解決收款延遲與核數痛點。",
+      "hero": {
+        "headline": "從 45 天到 18 天：極速優化現金循環",
+        "result": "收款速度提升 60%"
+      },
+      "challenge": {
+        "title": "面臨挑戰",
+        "content": "這家擁有大量中小企客戶的貿易公司長期受現金流困擾。平均應收賬款天數 (DSO) 長達 45 天，財務團隊每週需花費大量時間人手核對銀行月結單與客戶匯款通知 (Remittance Advice)，效率極低。",
+        "points": [
+          "DSO 過長導致營運資金 (Working Capital) 壓力大",
+          "傳統銀行轉帳及支票處理程序繁瑣",
+          "財務部每週耗費 10+ 小時進行人手對數 (Reconciliation)",
+          "缺乏實時的發票狀態追蹤（是否已讀、已付）"
+        ]
+      },
+      "solution": {
+        "title": "解決方案",
+        "content": "部署 Aitivate 的智能收款自動化方案，利用「轉數快」(FPS) 技術打通開單與收款環節，實現無縫對接。",
+        "features": [
+          "發票自動嵌入專屬 FPS 收款二維碼 (QR Code)",
+          "每筆交易附帶唯一識別碼，實現 100% 自動對賬",
+          "實時收款通知與系統狀態更新",
+          "與現有 ERP/會計系統無縫整合"
+        ]
+      },
+      "results": {
+        "title": "轉型成果",
+        "metrics": [
+          { "value": "60%", "label": "收款週期縮短" },
+          { "value": "8小時", "label": "每週節省之對賬工時" },
+          { "value": "18天", "label": "新平均 DSO (應收賬款天數)" }
+        ]
+      },
+      "testimonial": {
+        "quote": "",
+        "author": "",
+        "role": "",
+        "company": ""
+      },
+      "cta": {
+        "title": "想改善企業現金流？",
+        "subtitle": "體驗 FPS 自動化如何讓收款變得簡單直接。",
+        "button": "預約財務流程諮詢"
+      }
+    },
+    "payrollAi": {
+      "meta": {
+        "title": "大型零售連鎖如何實現 500+ 員工薪酬自動化 | Aitivate",
+        "description": "了解香港零售品牌如何透過系統對接，解決複雜的 713 計算與強積金合規，將計糧時間縮短 90%。"
+      },
+      "title": "零售業薪酬管理的數碼升級",
+      "category": "人力資源 (HR)",
+      "excerpt": "一家擁有 15 間分店的零售連鎖品牌，成功將每月繁瑣的「計糧週」轉化為數小時的自動化流程。",
+      "hero": {
+        "headline": "從 3 天煎熬到 3 小時完成：釋放 HR 價值",
+        "result": "薪酬處理時間縮短 90%"
+      },
+      "challenge": {
+        "title": "面臨挑戰",
+        "content": "該零售連鎖店擁有超過 500 名前線員工，面對複雜的輪班制 (Roster)、佣金計算及兼職流動。HR 團隊每月需花費整整 3 天處理薪酬，且常因「713 條例」平均工資計算與強積金供款細節而頭痛。",
+        "points": [
+          "每月耗費 3 天進行高強度的薪酬核算",
+          "人手計算複雜佣金與津貼常出現人為錯誤",
+          "強積金 (MPF) 申報趕急，增加違規罰款風險",
+          "員工經常查詢薪單詳情，佔用 HR 大量時間"
+        ]
+      },
+      "solution": {
+        "title": "解決方案",
+        "content": "實施 Aitivate 的智能薪酬管理系統，並直接與店舖的 POS 及考勤系統 (Time & Attendance) 深度整合。",
+        "features": [
+          "自動同步考勤打卡與 POS 銷售佣金數據",
+          "內置「713 條例」邏輯，自動運算平均工資與假期薪酬",
+          "強積金供款自動計算與受託人檔案直連提交",
+          "員工自助 App 查看電子糧單與假期結餘"
+        ]
+      },
+      "results": {
+        "title": "轉型成果",
+        "metrics": [
+          { "value": "90%", "label": "薪酬處理時間縮減" },
+          { "value": "0", "label": "計算人為錯誤" },
+          { "value": "100%", "label": "強積金合規準時申報" }
+        ]
+      },
+      "testimonial": {
+        "quote": "",
+        "author": "",
+        "role": "",
+        "company": ""
+      },
+      "cta": {
+        "title": "想徹底解決計糧煩惱？",
+        "subtitle": "了解自動化如何助您輕鬆應對複雜的零售薪酬管理。",
+        "button": "預約 HR 系統演示"
+      }
+    }
+  },
+  "Technology": {
+    "meta": {
+      "title": "核心技術架構 | Aitivate",
+      "description": "探索 Aitivate 如何利用企業級 AI 與自動化技術，為香港企業構建安全、高效的營運中樞。"
+    },
+    "hero": {
+      "title": "專為香港商業環境打造的技術核心",
+      "subtitle": "融合頂尖 AI 智能與本地合規標準的企業級架構"
+    },
+    "sections": {
+      "ai": {
+        "title": "AI 驅動的商業智能",
+        "description": "超越單純的自動化。我們的 AI 引擎經過針對性訓練，能深入理解香港商業文件語境，實現精準的預測與決策輔助。",
+        "features": [
+          "中英雙語及夾雜語文 NLP 處理",
+          "智能文件理解 (IDP) 電腦視覺技術",
+          "具備預測能力的商業數據分析",
+          "持續自我優化的機器學習模型"
+        ]
+      },
+      "integration": {
+        "title": "無縫系統對接",
+        "description": "打破數據孤島。我們採用「API 優先」架構，能與您現有的 ERP、CRM 及會計系統無縫連接，無需更換現有軟件。",
+        "features": [
+          "預建主流商業軟件 (Xero, Salesforce 等) 連接器",
+          "支援高度客製化的 API 整合",
+          "毫秒級實時數據同步",
+          "低代碼整合配置，快速部署"
+        ]
+      },
+      "platform": {
+        "title": "靈活的工作流編排引擎",
+        "description": "基於業界領先的 n8n 自動化架構，專為香港企業複雜的營運邏輯而定制，提供無限的擴展性。",
+        "features": [
+          "直觀的視覺化流程設計器",
+          "超過 400+ 種預建系統整合",
+          "支援複雜的自定義邏輯與條件判斷",
+          "高可用性與彈性擴展的雲端架構"
+        ]
+      }
+    }
+  },
+  "About": {
+    "meta": {
+      "title": "關於 Aitivate | 源自香港上市公司的企業 AI 專家",
+      "description": "Aitivate 是香港上市公司新傳企劃 (1284.HK) 旗下的企業 AI 方案品牌。我們將集團內部驗證的智能自動化技術，轉化為助您業務增長的實戰工具。"
+    },
+    "hero": {
+      "title": "源自實戰的企業級 AI",
+      "subtitle": "由香港上市公司新傳企劃 (New Media Lab) 孵化，我們將驅動數碼媒體王國的技術，轉化為您的競爭優勢。"
+    },
+    "mission": {
+      "title": "從內部痛點到市場方案",
+      "content": "Aitivate 的誕生並非偶然。作為香港領先的數碼媒體集團（新傳企劃，股份代號：1284），我們旗下擁有《經濟一週》、《新假期》等具影響力的品牌。在管理龐大的媒體運作與數百萬用戶數據的過程中，我們深切體會到人手流程的樽頸。過去 3.5 年，我們投入資源研發 AI——從 iTrial 的單據自動識別到編輯部的智能流程——成功將集團運作自動化。現在，我們的使命是將這些經過實戰驗證 (Battle-tested) 的技術開放給香港企業，讓您無需巨額研發成本，即可享有上市公司級別的運營效率。"
+    },
+    "values": {
+      "title": "我們的核心優勢",
+      "items": [
+        {
+          "title": "實戰驗證 (Battle-Tested)",
+          "description": "我們的 AI 非實驗室產品，而是已經過集團內部海量數據洗禮。從高流量的收據處理到複雜的 HR 流程，系統穩定性與準確度均已通過嚴苛的商業考驗。"
+        },
+        {
+          "title": "深諳香港商業 (Deep Local Context)",
+          "description": "源於本地媒體基因，我們的 AI 對「中英夾雜」的香港商業語境有著獨一無二的理解力，能精準處理符合本地法規與習慣的複雜文件。"
+        },
+        {
+          "title": "企業級合規 (Enterprise Grade)",
+          "description": "承襲上市公司的管治標準，我們對數據安全、私隱保護 (PDPO) 及審計合規有著最高級別的承諾，是您最值得信賴的技術夥伴。"
+        },
+        {
+          "title": "成果導向 (Results First)",
+          "description": "我們不空談科技概念。正如我們為集團內部節省了數以千計的工時，我們同樣以可量化的 ROI（投資回報率）作為衡量為您服務成功的唯一指標。"
+        }
+      ]
+    },
+    "team": {
+      "title": "強大的研發後盾",
+      "content": "Aitivate 由 New Media Lab 的核心技術團隊領軍。我們不僅擁有 AI 科學家與工程師，更結合了深懂企業運作的財務與 HR 顧問。這支團隊曾成功推動傳統媒體的數碼轉型，現在將運用同樣的經驗，協助您的企業跨越技術門檻。"
+    },
+    "hongKong": {
+      "title": "香港製造，信心保證",
+      "description": "作為香港上市集團的一員，我們深明本地營商的挑戰與監管要求。您的數據將安全存放於香港本地數據中心，並受香港法律保障，絕無跨境合規隱憂。",
+      "stats": {
+        "businesses": {
+          "value": "1284.HK",
+          "label": "源自香港上市公司"
+        },
+        "storage": {
+          "value": "3.5年+",
+          "label": "內部實戰研發"
+        },
+        "bilingual": {
+          "value": "100%",
+          "label": "香港合規標準"
+        }
+      }
+    },
+    "cta": {
+      "title": "複製我們的成功經驗",
+      "subtitle": "預約企業諮詢，了解我們如何將應用於上市集團的自動化技術，部署到您的業務中。",
+      "button": "預約企業方案演示"
+    }
+  },
+  "Events": {
+    "meta": {
+      "title": "活動 | Aitivate",
+      "description": "參加Aitivate即將舉辦的香港企業AI自動化活動、網絡研討會和工作坊。"
+    },
+    "hero": {
+      "title": "活動與網絡研討會",
+      "subtitle": "學習、連接並探索企業自動化的未來"
+    },
+    "upcoming": {
+      "title": "即將舉辦的活動",
+      "empty": "目前沒有排定的活動。請稍後再查看或訂閱我們的電子報以獲取更新。"
+    },
+    "past": {
+      "title": "過往活動",
+      "viewRecording": "查看錄影",
+      "events": [
+        {
+          "date": "2025年12月",
+          "title": "香港中小企AI自動化入門",
+          "description": "為香港中小企業介紹實用的AI自動化。"
+        },
+        {
+          "date": "2025年11月",
+          "title": "財務運營自動化：FPS及OCR工作坊",
+          "description": "涵蓋FPS二維碼自動化和OCR文件處理的實踐工作坊。"
+        }
+      ]
+    },
+    "cta": {
+      "title": "想了解更多？",
+      "subtitle": "等不及活動？預約個人諮詢討論您的自動化需求。",
+      "button": "預約免費諮詢"
+    }
   }
 }
-

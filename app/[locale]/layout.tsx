@@ -21,12 +21,72 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://n8n-landing-page.vercel.app"), 
+  metadataBase: new URL("https://aitivate.com"),
   title: {
-    default: "n8n - Automate Your HK Business Workflows with AI-Native Precision",
-    template: "%s | n8n HK",
+    default: "Aitivate - Agentic AI Solutions for Hong Kong Business",
+    template: "%s | Aitivate",
   },
-  description: "Automate your Hong Kong business workflows with AI-native precision. Seamlessly integrate Finance, HR, and Admin operations with n8n.",
+  description: "Automate your Hong Kong business workflows with AI-native precision. Aitivate delivers intelligent automation for finance, HR, and operations.",
+  keywords: [
+    "AI automation",
+    "Hong Kong business",
+    "workflow automation",
+    "FPS QR code",
+    "OCR document",
+    "payroll automation",
+    "MPF automation",
+    "n8n",
+    "business automation HK",
+  ],
+  authors: [{ name: "Aitivate" }],
+  creator: "Aitivate",
+  publisher: "Aitivate",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_HK",
+    alternateLocale: "zh_HK",
+    url: "https://aitivate.com",
+    siteName: "Aitivate",
+    title: "Aitivate - Agentic AI Solutions for Hong Kong Business",
+    description: "Automate your Hong Kong business workflows with AI-native precision.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Aitivate - AI Automation for Hong Kong Business",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Aitivate - Agentic AI Solutions for Hong Kong Business",
+    description: "Automate your Hong Kong business workflows with AI-native precision.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://aitivate.com",
+    languages: {
+      "en": "https://aitivate.com/en",
+      "zh-HK": "https://aitivate.com/zh-HK",
+    },
+  },
 };
 
 export default async function RootLayout({
@@ -41,6 +101,12 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        {/* Hreflang tags for SEO */}
+        <link rel="alternate" hrefLang="en" href="https://aitivate.com/en" />
+        <link rel="alternate" hrefLang="zh-HK" href="https://aitivate.com/zh-HK" />
+        <link rel="alternate" hrefLang="x-default" href="https://aitivate.com/en" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
