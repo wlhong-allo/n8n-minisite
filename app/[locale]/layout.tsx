@@ -4,6 +4,11 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import "../globals.css";
 
+// Generate static params for all locales
+export function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'zh-HK' }];
+}
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

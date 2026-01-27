@@ -5,9 +5,13 @@ import SolutionPageTemplate from '@/components/templates/SolutionPageTemplate';
 import { getSolutionBySlug, financeSolutions } from '@/lib/solutions';
 
 export async function generateStaticParams() {
-  return financeSolutions.map((solution) => ({
-    slug: solution.slug,
-  }));
+  const locales = ['en', 'zh-HK'];
+  return locales.flatMap((locale) =>
+    financeSolutions.map((solution) => ({
+      locale,
+      slug: solution.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({

@@ -6,9 +6,13 @@ import { getCaseStudyBySlug, caseStudies } from '@/lib/case-studies';
 import { BOOKING_URL } from '@/lib/solutions';
 
 export async function generateStaticParams() {
-  return caseStudies.map((cs) => ({
-    slug: cs.slug,
-  }));
+  const locales = ['en', 'zh-HK'];
+  return locales.flatMap((locale) =>
+    caseStudies.map((cs) => ({
+      locale,
+      slug: cs.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({

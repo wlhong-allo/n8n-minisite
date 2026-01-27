@@ -5,9 +5,13 @@ import SolutionPageTemplate from '@/components/templates/SolutionPageTemplate';
 import { getSolutionBySlug, hrSolutions } from '@/lib/solutions';
 
 export async function generateStaticParams() {
-  return hrSolutions.map((solution) => ({
-    slug: solution.slug,
-  }));
+  const locales = ['en', 'zh-HK'];
+  return locales.flatMap((locale) =>
+    hrSolutions.map((solution) => ({
+      locale,
+      slug: solution.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({
