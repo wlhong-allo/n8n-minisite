@@ -8,6 +8,7 @@ interface SolutionHeroProps {
   ctaText: string;
   calendlyUrl: string;
   utmCampaign?: string;
+  seeHowItWorksText?: string;
 }
 
 export default function SolutionHero({
@@ -17,6 +18,7 @@ export default function SolutionHero({
   ctaText,
   calendlyUrl,
   utmCampaign,
+  seeHowItWorksText = 'See How It Works',
 }: SolutionHeroProps) {
   return (
     <section className="relative pt-32 pb-20 px-6 md:px-12 lg:px-24 min-h-[70vh] overflow-hidden flex flex-col justify-center">
@@ -57,7 +59,7 @@ export default function SolutionHero({
             href="#how-it-works"
             className="text-gray-600 hover:text-cyan-600 font-medium flex items-center gap-2 transition-colors"
           >
-            See How It Works
+            {seeHowItWorksText}
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
             </svg>

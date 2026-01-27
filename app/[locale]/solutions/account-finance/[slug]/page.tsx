@@ -151,6 +151,7 @@ export default async function FinanceSolutionPage({
         subtitle: t('hero.subtitle'),
         description: t('hero.description'),
         ctaText: t('hero.cta'),
+        seeHowItWorksText: tCommon('seeHowItWorks'),
       }}
       painPoints={{
         title: t('painPoints.title'),

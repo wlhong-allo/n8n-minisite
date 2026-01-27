@@ -151,6 +151,7 @@ export default async function HRSolutionPage({
         subtitle: t('hero.subtitle'),
         description: t('hero.description'),
         ctaText: t('hero.cta'),
+        seeHowItWorksText: tCommon('seeHowItWorks'),
       }}
       painPoints={{
         title: t('painPoints.title'),

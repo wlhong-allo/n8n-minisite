@@ -67,11 +67,13 @@ export default function Footer() {
                   {t('links.technology')}
                 </Link>
               </li>
+              {/* Events link hidden for now
               <li>
                 <Link href={`/${locale}/events`} className="text-gray-400 hover:text-cyan-400 transition-colors">
                   {t('links.events')}
                 </Link>
               </li>
+              */}
             </ul>
           </div>
         </div>

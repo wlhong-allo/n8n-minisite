@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Aitivate - Agentic AI Solutions for Hong Kong Business",
-    "description": "Automate your Hong Kong business workflows with AI-native precision. Aitivate delivers intelligent automation for finance, HR, and operations."
+    "title": "Aitivate - Enterprise Intelligent Automation for Hong Kong",
+    "description": "Automate your Hong Kong business processes with AI-native precision. Aitivate delivers intelligent automation solutions for Finance, HR, and Operations."
   },
   "Navbar": {
     "contact": "Book Consultation",
@@ -10,19 +10,19 @@
       "title": "Solutions",
       "viewAll": "View All Solutions",
       "finance": {
-        "title": "Account & Finance",
-        "fps": "FPS QR Code Augmentation",
+        "title": "Finance & Accounting",
+        "fps": "FPS QR Code Automation",
         "ocr": "OCR Document Management",
         "revenue": "Revenue Cycle Documents",
-        "aging": "Receivable Aging Report",
-        "reminder": "Receivable Auto Reminder"
+        "aging": "AR Aging Reports",
+        "reminder": "Auto-Payment Reminders"
       },
       "hr": {
         "title": "Human Resources",
         "freelancer": "Freelancer Management",
-        "payroll": "Payroll Management",
-        "talent": "Talent Market Intelligence",
-        "mpf": "MPF Documents"
+        "payroll": "Payroll Automation",
+        "talent": "Talent Intelligence",
+        "mpf": "MPF Compliance"
       }
     },
     "caseStudies": "Case Studies",
@@ -30,19 +30,19 @@
     "about": "About Us"
   },
   "Hero": {
-    "title_start": "Agentic AI Solutions for",
-    "title_highlight": "Business Workflows",
-    "subtitle": "Aitivate automates your finance, HR, and operations with intelligent workflows built specifically for Hong Kong businesses.",
+    "title_start": "Intelligent AI Automation Solutions",
+    "title_highlight": "",
+    "subtitle": "Built specifically for Hong Kong enterprises to automate Finance, HR, and Operations workflows.",
     "cta_primary": "Book Free Consultation",
-    "cta_secondary": "See How It Works"
+    "cta_secondary": "Learn More"
   },
   "Integrations": {
-    "title": "Seamless Integration with Your Existing Tools",
-    "subtitle": "Connect with the platforms you already use"
+    "title": "Seamless Integration",
+    "subtitle": "Connects with the platforms you already use"
   },
   "ValueProps": {
     "title": "Why Choose Aitivate",
-    "subtitle": "Purpose-built automation for the unique needs of HK enterprises",
+    "subtitle": "Automation tailored for Hong Kong's unique business needs",
     "items": {
       "speed": {
         "title": "10x Faster Processing",
@@ -50,17 +50,17 @@
       },
       "accuracy": {
         "title": "99.5% Accuracy",
-        "description": "AI-powered validation eliminates human errors in data entry and calculations."
+        "description": "AI-driven verification eliminates human error in data entry and calculations."
       },
       "bilingual": {
-        "title": "Multilingual Support",
-        "description": "Native English and Traditional Chinese processing for all documents."
+        "title": "Native Bilingual Support",
+        "description": "Native processing support for both English and Traditional Chinese documents."
       }
     }
   },
   "DepartmentBenefits": {
     "title": "Solutions for Every Department",
-    "subtitle": "Tailored automation that understands your specific workflow challenges",
+    "subtitle": "Customized automation for your specific workflow challenges",
     "tabs": {
       "finance": "Finance",
       "hr": "HR",
@@ -71,79 +71,79 @@
         "title": "Finance & Accounting",
         "description": "Streamline invoice processing, automate reconciliation, and generate real-time financial reports with AI precision.",
         "points": [
-          "Automated FPS QR code generation for invoices",
-          "OCR-powered document extraction and filing",
-          "Real-time receivable aging and cash flow tracking",
-          "Automated payment reminders and follow-ups"
+          "Automated FPS Invoice QR Codes",
+          "OCR-driven Capture & Archiving",
+          "Real-time AR Aging & Cash Flow Tracking",
+          "Automated Payment Reminders"
         ]
       },
       "hr": {
         "title": "Human Resources",
-        "description": "Transform HR operations with intelligent automation for payroll, compliance, and talent management.",
+        "description": "Transform HR operations with intelligent automation covering payroll, compliance, and talent management.",
         "points": [
-          "Automated MPF calculations and submissions",
-          "Freelancer contract and payment management",
-          "AI-powered talent market intelligence",
-          "Streamlined onboarding and offboarding workflows"
+          "Automated MPF Calculation & Submission",
+          "Freelancer Contract & Payment Management",
+          "AI-Driven Talent Market Intelligence",
+          "Streamlined Onboarding & Offboarding"
         ]
       },
       "operations": {
         "title": "Business Operations",
-        "description": "Connect your entire operation with intelligent workflows that eliminate bottlenecks and manual handoffs.",
+        "description": "Connect your entire operation with intelligent workflows, eliminating bottlenecks and manual handovers.",
         "points": [
-          "Cross-department workflow automation",
-          "Document routing and approval chains",
-          "Real-time operational dashboards",
-          "Integration with existing business systems"
+          "Cross-department Workflow Automation",
+          "Document Routing & Approval Chains",
+          "Real-time Operational Dashboards",
+          "Integration with Existing Business Systems"
         ]
       }
     }
   },
   "CaseStudiesSection": {
-    "title": "Real Results from Real Businesses",
-    "subtitle": "See how Hong Kong companies transformed their operations with Aitivate",
+    "title": "Real Results for Real Enterprises",
+    "subtitle": "See how Hong Kong businesses are transforming operations with Aitivate",
     "viewAll": "View All Case Studies"
   },
   "FAQ": {
     "title": "Frequently Asked Questions",
     "items": {
       "q1": {
-        "question": "How long does it take to implement Aitivate solutions?",
-        "answer": "Most implementations take 2-4 weeks depending on complexity. We handle the entire setup process, including integration with your existing systems, staff training, and ongoing support."
+        "question": "How long does implementation take?",
+        "answer": "Most implementations take 2-4 weeks, depending on complexity. We handle the entire setup process, including integration with your existing systems, staff training, and ongoing support."
       },
       "q2": {
-        "question": "Is my data secure with Aitivate?",
-        "answer": "Absolutely. We're fully compliant with Hong Kong's PDPO requirements. All data is encrypted, stored locally in Hong Kong data centers, and we never share your information with third parties."
+        "question": "Is my data safe with Aitivate?",
+        "answer": "Absolutely. We are fully compliant with the Hong Kong Personal Data (Privacy) Ordinance (PDPO). All data is encrypted and stored in Hong Kong data centers. We never share your data with third parties."
       },
       "q3": {
         "question": "Do I need technical expertise to use Aitivate?",
-        "answer": "No technical knowledge required. Our solutions are designed for business users with intuitive interfaces. We provide comprehensive training and ongoing support for your team."
+        "answer": "No technical knowledge is required. Our solutions are designed for business users with an intuitive interface. We provide comprehensive training and continuous support for your team."
       },
       "q4": {
-        "question": "Can Aitivate integrate with my existing software?",
-        "answer": "Yes, we integrate with most popular business tools including Xero, QuickBooks, HSBC Business Banking, Google Workspace, Microsoft 365, and many more. Custom integrations are also available."
+        "question": "Does Aitivate integrate with my existing software?",
+        "answer": "Yes, we integrate with most popular business tools, including Xero, QuickBooks, HSBC Business, Google Workspace, Microsoft 365, and more. Custom integrations are also available."
       },
       "q5": {
-        "question": "What's the pricing model?",
-        "answer": "We offer flexible pricing based on your business size and needs. Book a free consultation to get a customized quote. Most clients see ROI within the first 3 months."
+        "question": "What is the pricing model?",
+        "answer": "We offer flexible pricing based on your business size and needs. Book a free consultation for a customized quote. Most clients see a positive ROI within the first 3 months."
       }
     }
   },
   "Footer": {
     "cta_title": "Ready to Transform Your Business?",
-    "cta_subtitle": "Book a free 30-minute consultation and discover how Aitivate can automate your workflows.",
+    "cta_subtitle": "Book a 30-minute free consultation to see how Aitivate can automate your workflows.",
     "cta_button": "Book Free Consultation",
     "copyright": "© 2026 Aitivate. All rights reserved.",
     "company": "Aitivate Limited",
     "address": "Hong Kong",
-    "tagline": "Agentic AI Solutions for Hong Kong Business Workflows. Automate your finance, HR, and operations with intelligent workflows.",
+    "tagline": "Intelligent AI automation for Hong Kong enterprise workflows. Automating your Finance, HR, and Operations.",
     "sections": {
       "solutions": "Solutions",
       "company": "Company"
     },
     "links": {
       "solutions": "Solutions",
-      "accountFinance": "Account & Finance",
+      "accountFinance": "Accounting & Finance",
       "humanResources": "Human Resources",
       "caseStudies": "Case Studies",
       "technology": "Technology",
@@ -155,102 +155,103 @@
   },
   "Common": {
     "learnMore": "Learn More",
+    "seeHowItWorks": "See How It Works",
     "viewAll": "View All",
     "readMore": "Read More",
     "readCaseStudy": "Read Case Study",
-    "bookConsultation": "Book Your Free Consultation",
-    "freeConsultation": "Free 30-minute consultation • No commitment required",
+    "bookConsultation": "Book Free Consultation",
+    "freeConsultation": "30-Min Free Consultation • No Commitment",
     "wantResults": "Want to achieve similar results for your business?",
     "keyResult": "Key Result",
     "breadcrumb": {
       "home": "Home",
       "solutions": "Solutions",
       "caseStudies": "Case Studies",
-      "accountFinance": "Account & Finance",
+      "accountFinance": "Accounting & Finance",
       "humanResources": "Human Resources"
     }
   },
   "Solutions": {
     "hub": {
-      "title": "AI-Powered Solutions for Hong Kong Business",
-      "subtitle": "Discover automation solutions designed specifically for the unique challenges of Hong Kong enterprises",
+      "title": "Enterprise AI Automation for HK",
+      "subtitle": "Explore automation solutions designed for the unique challenges of Hong Kong businesses",
       "finance": {
-        "title": "Account & Finance Solutions",
+        "title": "Finance & Accounting Solutions",
         "description": "Automate your financial operations with intelligent document processing, payment automation, and real-time reporting."
       },
       "hr": {
-        "title": "Human Resources Solutions",
-        "description": "Transform HR with automated payroll, compliance management, and AI-powered talent intelligence."
+        "title": "HR Solutions",
+        "description": "Transform HR with automated payroll, compliance management, and AI-driven talent intelligence."
       }
     },
     "fpsQrCode": {
       "meta": {
-        "title": "FPS QR Code Augmentation | Aitivate",
-        "description": "Automatically generate and embed FPS QR codes in your invoices. Speed up payments and reduce manual work with Aitivate's intelligent automation."
+        "title": "FPS QR Code Automation | Aitivate",
+        "description": "Automatically generate and embed FPS QR codes into your invoices. Accelerate collections and reduce manual work."
       },
       "hero": {
-        "subtitle": "Account & Finance",
-        "title": "Get Paid Faster with Automated FPS QR Codes",
-        "description": "Automatically generate and embed FPS QR codes in every invoice. Your customers scan, pay instantly, and your records update automatically.",
+        "subtitle": "Accounting & Finance",
+        "title": "Accelerate Collections with Automated FPS QR Codes",
+        "description": "Automatically generate and embed a unique FPS QR code into every invoice. Clients scan to pay, and records update automatically.",
         "cta": "Book Free Consultation"
       },
       "painPoints": {
-        "title": "The Payment Collection Challenge",
-        "subtitle": "Manual payment processes cost Hong Kong businesses time and money",
+        "title": "The Challenge of Collections",
+        "subtitle": "Manual collection processes cost Hong Kong businesses time and money",
         "points": [
           {
-            "title": "Slow Payment Cycles",
-            "description": "Customers delay payments because bank transfers require manual data entry of account details."
+            "title": "Slow Collection Cycles",
+            "description": "Clients delay payments due to the hassle of manually entering bank account details."
           },
           {
-            "title": "Manual FPS Code Generation",
-            "description": "Creating FPS QR codes for each invoice is time-consuming and error-prone."
+            "title": "Manual FPS Generation",
+            "description": "Creating FPS QR codes for each invoice is time-consuming and prone to error."
           },
           {
             "title": "Reconciliation Headaches",
-            "description": "Matching incoming payments to invoices requires hours of manual checking."
+            "description": "Matching received payments with invoices requires hours of manual checking."
           },
           {
             "title": "Inconsistent Branding",
-            "description": "FPS codes added manually often look unprofessional and inconsistent."
+            "description": "Manually added FPS codes often look unprofessional and inconsistent."
           }
         ]
       },
       "howItWorks": {
         "title": "How It Works",
-        "subtitle": "Seamless automation from invoice creation to payment reconciliation",
+        "subtitle": "Seamless automation from billing to reconciliation",
         "steps": [
           {
             "title": "Create Invoice",
-            "description": "Generate your invoice as usual in your accounting system"
+            "description": "Generate invoices in your accounting system as usual"
           },
           {
-            "title": "Auto-Generate QR",
-            "description": "Aitivate automatically creates a unique FPS QR code with correct amount"
+            "title": "Auto-Generate QR Code",
+            "description": "Aitivate creates a unique FPS QR code with the exact amount"
           },
           {
-            "title": "Send to Customer",
-            "description": "Invoice with embedded QR code is sent automatically"
+            "title": "Send to Client",
+            "description": "Automatically send the invoice with the embedded FPS QR Code"
           },
           {
-            "title": "Auto-Reconcile",
-            "description": "Payment received and matched to invoice automatically"
+            "title": "Auto-Reconciliation",
+            "description": "Incoming payments are automatically matched to invoices"
           }
         ]
       },
       "benefits": {
-        "title": "Transform Your Payment Collection",
+        "title": "Transform Your Collections",
         "subtitle": "Measurable improvements from day one",
         "items": [
           {
             "metric": "60%",
-            "title": "Faster Payments",
-            "description": "Customers pay quicker when they can simply scan and pay"
+            "title": "Faster Collections",
+            "description": "Clients pay faster with scan-to-pay convenience"
           },
           {
-            "metric": "5hrs",
+            "metric": "5 Hrs",
             "title": "Saved Weekly",
-            "description": "Eliminate manual QR code generation and reconciliation"
+            "description": "Eliminate manual QR generation and reconciliation"
           },
           {
             "metric": "99.2%",
@@ -260,690 +261,686 @@
         ]
       },
       "faq": {
-        "title": "Common Questions",
+        "title": "Frequently Asked Questions",
         "items": [
           {
-            "question": "Does it work with Xero, QuickBooks, MYOB, or my accounting software?",
-            "answer": "The solution is agnostic to your accounting software. It works with invoices generated in Xero, QuickBooks, MYOB, and most popular accounting systems."
+            "question": "Do you support major accounting software like Xero, QuickBooks, MYOB?",
+            "answer": "Yes, our solution is software-agnostic and supports invoices generated by Xero, QuickBooks, MYOB, and most major accounting systems."
           },
           {
-            "question": "Which Hong Kong banks' FPS (HSBC, Hang Seng, Bank of China, Standard Chartered, etc.) does this work with?",
-            "answer": "Our solution works with all Hong Kong banks that support FPS, including HSBC, Hang Seng, Bank of China, Standard Chartered, and all other participating banks."
+            "question": "Which Hong Kong banks are supported for FPS?",
+            "answer": "We support all FPS-enabled Hong Kong banks, including HSBC, Hang Seng, BOCHK, Standard Chartered, and all other participating institutions."
           },
           {
-            "question": "Can I customize the QR code appearance?",
-            "answer": "Yes, you can add your company logo, adjust colors to match your branding, and position the QR code anywhere on your invoice template."
+            "question": "Can I customize the FPS QR Code appearance?",
+            "answer": "Yes, you can add your company logo, adjust colors to match your brand, and place the FPS QR Code anywhere on your invoice template."
           },
           {
-            "question": "How does automatic reconciliation work?",
-            "answer": "Each QR code contains a unique reference. When payment is received, our system automatically matches it to the correct invoice and updates your records."
+            "question": "How does automated reconciliation work?",
+            "answer": "Each FPS QR Code contains a unique reference number. When a payment is received, our system automatically matches it to the correct invoice and updates your records."
           }
         ]
       },
       "cta": {
-        "title": "Start Getting Paid Faster Today",
-        "subtitle": "Book a free consultation to see how FPS QR automation can transform your payment collection.",
+        "title": "Start Accelerating Collections Today",
+        "subtitle": "Book a free consultation to see how FPS QR Code automation transforms your cash flow.",
         "button": "Book Free Consultation"
       }
     },
     "ocrDocument": {
       "meta": {
         "title": "OCR Document Management | Aitivate",
-        "description": "Extract data from invoices, receipts, and documents automatically with AI-powered OCR. Reduce manual data entry by 90%."
+        "description": "AI-driven OCR automatically extracts data from invoices, receipts, and documents. Reduce manual data entry by 90%."
       },
       "hero": {
-        "subtitle": "Account & Finance",
-        "title": "Extract Document Data in Seconds, Not Hours",
-        "description": "AI-powered OCR automatically extracts data from invoices, receipts, and business documents. Bilingual support for English and Chinese documents.",
+        "subtitle": "Accounting & Finance",
+        "title": "Cut Document Processing Time by 90%, Unlock Your Team's Core Value",
+        "description": "AI OCR technology built for HK enterprises, accurately recognizing invoices, receipts, and HR documents. Perfectly supports bilingual content, eliminating manual entry errors, allowing Finance and HR departments to focus on high-value decision analysis.",
         "cta": "Book Free Consultation"
       },
       "painPoints": {
-        "title": "The Document Processing Burden",
-        "subtitle": "Manual data entry is costing your business more than you think",
+        "title": "The Hidden Costs of Manual Operations",
+        "subtitle": "Inefficiency and compliance risks are eating into your operational profits",
         "points": [
           {
-            "title": "Hours of Manual Entry",
-            "description": "Staff spend countless hours typing data from paper documents into your systems."
+            "title": "Resource Misallocation",
+            "description": "Your professional team shouldn't be tied up with low-value data entry. Automate time-consuming paper entry to let staff focus on financial analysis and strategic decisions."
           },
           {
-            "title": "Frequent Data Errors",
-            "description": "Manual transcription leads to typos, wrong amounts, and misclassified expenses."
+            "title": "Data Integrity Risk",
+            "description": "Manual transcription inevitably leads to typos or amount errors, causing account discrepancies, duplicate payments, and compliance gaps, significantly increasing audit and correction costs."
           },
           {
-            "title": "Bilingual Complexity",
-            "description": "Processing both English and Chinese documents requires different approaches."
+            "title": "Bilingual Processing Bottlenecks",
+            "description": "Standard systems struggle to accurately recognize the mixed Chinese/English documents common in HK. Our AI is optimized for the local business environment, eliminating workflow stalls caused by language switching."
           },
           {
-            "title": "Lost Documents",
-            "description": "Paper receipts get lost, damaged, or filed incorrectly, causing audit issues."
+            "title": "Lack of Audit Trails",
+            "description": "Paper receipts are easily lost, faded, or misfiled, causing tax reporting difficulties. Digital archiving ensures every transaction is traceable anytime, meeting strict audit requirements."
           }
         ]
       },
       "howItWorks": {
-        "title": "How It Works",
-        "subtitle": "From paper to digital in seconds",
+        "title": "Seamless Intelligent Workflows",
+        "subtitle": "Turn messy vouchers into actionable financial data in 4 steps",
         "steps": [
           {
-            "title": "Capture",
-            "description": "Scan, photograph, or upload documents in any format"
+            "title": "Multi-Source Flexible Capture",
+            "description": "Supports Mobile App, Email, and Batch Uploads. Instantly centralize processing for all paper and electronic documents."
           },
           {
-            "title": "Extract",
-            "description": "AI reads and extracts all relevant data fields automatically"
+            "title": "High-Precision Recognition",
+            "description": "AI accurately identifies bilingual content. Automatically captures critical fields like Date, Amount, and Tax, eliminating manual entry."
           },
           {
-            "title": "Validate",
-            "description": "Smart validation catches errors and flags anomalies"
+            "title": "Automated Compliance Verification",
+            "description": "Automatically detects duplicate reimbursements and data anomalies. Intelligently flags risk items to ensure zero compliance loopholes."
           },
           {
-            "title": "Export",
-            "description": "Data flows directly into your accounting system"
+            "title": "Seamless System Integration",
+            "description": "Directly connects with ERP and Accounting systems. One-click synchronization of structured data, significantly shortening the month-end closing cycle."
           }
         ]
       },
       "benefits": {
-        "title": "The Impact on Your Business",
-        "subtitle": "Real results from intelligent document processing",
+        "title": "Quantifiable Business Impact",
+        "subtitle": "Proven commercial value through intelligent transformation",
         "items": [
           {
             "metric": "90%",
-            "title": "Less Manual Entry",
-            "description": "Free your team from tedious data entry tasks"
+            "title": "Reduction in Manual Costs",
+            "description": "Eliminate repetitive data entry, allowing your team to focus on high-value financial analysis and management."
           },
           {
-            "metric": "3sec",
-            "title": "Per Document",
-            "description": "Process documents in seconds instead of minutes"
+            "metric": "<3 Sec",
+            "title": "Real-Time Data Sync",
+            "description": "Rapid recognition and verification significantly shorten reimbursement approval and month-end cycles."
           },
           {
             "metric": "100%",
-            "title": "Searchable Archive",
-            "description": "Every document indexed and instantly searchable"
+            "title": "Audit Compliance Ready",
+            "description": "All documents are automatically indexed and digitally archived, ready for internal audits and tax inquiries at any time."
           }
         ]
       },
       "faq": {
-        "title": "Common Questions",
+        "title": "Frequently Asked Questions",
         "items": [
           {
-            "question": "What types of documents can be processed?",
-            "answer": "Invoices, receipts, purchase orders, delivery notes, contracts, bank statements, and virtually any business document in English or Chinese."
+            "question": "What types of Hong Kong business documents can the system recognize?",
+            "answer": "Our OCR engine is optimized for the HK business environment, accurately processing Invoices, Receipts, POs, Bank Statements, and Contracts. It perfectly handles Traditional Chinese, English, and mixed-language content."
           },
           {
-            "question": "How accurate is the OCR extraction?",
-            "answer": "Our AI achieves 99%+ accuracy on printed documents. Handwritten text accuracy varies but typically exceeds 95% for clear handwriting."
+            "question": "How accurate is it for handwritten or thermal paper receipts?",
+            "answer": "For printed documents, accuracy exceeds 99%. For handwritten text (like taxi receipts) or faded thermal paper, our built-in AI image enhancement technology clarifies images to ensure accurate data capture."
           },
           {
-            "question": "Can it handle poor quality scans?",
-            "answer": "Yes, our AI includes image enhancement that can process faded, skewed, or partially damaged documents."
+            "question": "How does the system handle poor quality scans?",
+            "answer": "The system features intelligent image processing to automatically deskew, de-noise, and enhance contrast. It maintains high recognition levels even for low-light mobile photos or crumpled documents."
           }
         ]
       },
       "cta": {
-        "title": "Eliminate Manual Data Entry",
-        "subtitle": "See how OCR automation can save your team hours every week.",
-        "button": "Book Free Consultation"
+        "title": "Start Automating Financial Operations",
+        "subtitle": "Book an enterprise demo to experience how we turn tedious paper processes into a competitive advantage.",
+        "button": "Book Free Enterprise Consultation"
       }
     },
     "revenueCycle": {
       "meta": {
-        "title": "Revenue Cycle Document Automation | Aitivate",
-        "description": "Automate your entire revenue cycle from quote to cash. Streamline document flow and accelerate your cash conversion."
+        "title": "Revenue Cycle Automation | Aitivate",
+        "description": "Optimize the entire Quote-to-Cash process. Eliminate data silos and accelerate corporate cash recovery."
       },
       "hero": {
-        "subtitle": "Account & Finance",
-        "title": "Streamline Your Entire Revenue Cycle",
-        "description": "Automate document flow from quotation to invoice to receipt. Reduce cycle time and improve cash flow visibility.",
-        "cta": "Book Free Consultation"
+        "subtitle": "Intelligent Financial Operations",
+        "title": "Accelerate Your Revenue Cycle",
+        "description": "Achieve seamless automation from Quote to Order to Invoice. Break down departmental data silos, significantly reduce DSO (Days Sales Outstanding), and improve cash flow forecasting.",
+        "cta": "Book Enterprise Demo"
       },
       "painPoints": {
-        "title": "Revenue Cycle Bottlenecks",
-        "subtitle": "Disconnected processes slow down your cash conversion",
+        "title": "Hidden Bottlenecks in Revenue Processes",
+        "subtitle": "Fragmented workflows are slowing down your cash conversion efficiency",
         "points": [
           {
-            "title": "Manual Document Creation",
-            "description": "Creating quotes, invoices, and receipts manually wastes time and introduces errors."
+            "title": "High Administrative Costs",
+            "description": "Manual preparation of quotes and invoices is time-consuming and prone to human error, leading to subsequent payment disputes and correction costs."
           },
           {
-            "title": "Disconnected Systems",
-            "description": "Information doesn't flow between sales, finance, and operations systems."
+            "title": "Cross-System Data Silos",
+            "description": "Lack of connectivity between Sales (CRM), Operations, and Finance systems results in duplicate data entry and lagging information flow."
           },
           {
-            "title": "Poor Visibility",
-            "description": "No real-time view of where deals are in the revenue cycle."
+            "title": "Low Cash Flow Visibility",
+            "description": "Management lacks real-time visibility into order status and expected collection progress, making precise cash flow forecasting difficult."
           },
           {
-            "title": "Delayed Collections",
-            "description": "Slow invoicing and follow-up extends your cash conversion cycle."
+            "title": "Extended DSO",
+            "description": "Billing delays and lack of systematic collection processes directly lengthen the cash conversion cycle, affecting working capital."
           }
         ]
       },
       "howItWorks": {
-        "title": "How It Works",
-        "subtitle": "Connected automation across your revenue cycle",
+        "title": "End-to-End Automated Workflow",
+        "subtitle": "Connecting every key node of the Quote-to-Cash process",
         "steps": [
           {
-            "title": "Quote",
-            "description": "Generate professional quotes that convert to orders automatically"
+            "title": "Intelligent Quoting (Quote)",
+            "description": "Generate professional quotes with one click. Upon client confirmation, the system automatically converts it into a formal Sales Order without re-entry."
           },
           {
-            "title": "Order",
-            "description": "Orders trigger fulfillment and invoice preparation"
+            "title": "Order Fulfillment (Order)",
+            "description": "Order confirmation instantly triggers downstream processes, syncing with inventory or service departments and preparing billing data."
           },
           {
-            "title": "Invoice",
-            "description": "Invoices generated and sent automatically with payment options"
+            "title": "Automated Invoicing (Invoice)",
+            "description": "System automatically generates and sends invoices based on order terms. Supports embedded online payment links for immediate settlement."
           },
           {
-            "title": "Collect",
-            "description": "Payments tracked and receipts issued automatically"
+            "title": "Collection & Reconciliation (Collect)",
+            "description": "Automatically track payment status and send due reminders. Upon receipt, perform automated reconciliation to update financial records."
           }
         ]
       },
       "benefits": {
-        "title": "Accelerate Your Cash Flow",
-        "subtitle": "Faster cycles mean better business health",
+        "title": "Drive Business Growth",
+        "subtitle": "Build healthier cash flow with faster turnover speeds",
         "items": [
           {
             "metric": "40%",
-            "title": "Faster Cycle Time",
-            "description": "From quote to cash in less time"
+            "title": "Shorter Cash Conversion Cycle",
+            "description": "Significantly reduce the time gap from quote to actual collection (DSO)."
           },
           {
             "metric": "100%",
-            "title": "Document Accuracy",
-            "description": "Eliminate manual errors in your documents"
+            "title": "Eliminate Billing Errors",
+            "description": "Eradicate invoice amount or term errors caused by data transfer, reducing disputes."
           },
           {
             "metric": "Real-time",
-            "title": "Pipeline Visibility",
-            "description": "See every deal's status instantly"
+            "title": "Real-time Financial Insights",
+            "description": "Live dashboards to monitor every transaction status and precisely forecast cash flow."
           }
         ]
       },
       "faq": {
-        "title": "Common Questions",
+        "title": "FAQ & System Integration",
         "items": [
           {
-            "question": "Can I customize document templates?",
-            "answer": "Yes, all documents can be fully customized with your branding, terms, and specific fields required for your business."
+            "question": "Can it integrate with existing CRM or ERP systems?",
+            "answer": "Yes. We provide seamless integration with major platforms (Salesforce, HubSpot, Microsoft Dynamics, Zoho) to ensure real-time synchronization of sales and financial data."
           },
           {
-            "question": "Does it integrate with CRM systems?",
-            "answer": "We integrate with Salesforce, HubSpot, Zoho, and other popular CRM platforms to ensure seamless data flow."
+            "question": "How do you handle Multi-currency business?",
+            "answer": "Designed for international trade, the system fully supports HKD, USD, RMB, and other currencies, connecting to real-time exchange rates to automatically calculate P&L."
           },
           {
-            "question": "Can it handle multiple currencies?",
-            "answer": "Yes, full support for HKD, USD, RMB, and other currencies with automatic exchange rate updates."
-          },
-          {
-            "question": "What about approval workflows?",
-            "answer": "Built-in approval chains for quotes and discounts, with mobile approval capabilities for managers on the go."
+            "question": "Does the system have approval management?",
+            "answer": "Yes, it features rigorous internal controls. You can set quote discount caps and approval workflows, allowing managers to approve via mobile app anytime."
           }
         ]
       },
       "cta": {
-        "title": "Optimize Your Revenue Cycle",
-        "subtitle": "Discover how connected automation can accelerate your cash flow.",
-        "button": "Book Free Consultation"
+        "title": "Optimize Your Revenue Cycle Management",
+        "subtitle": "Book a consultation to see how connected automation helps you accelerate cash recovery.",
+        "button": "Book Free Expert Consultation"
       }
     },
     "freelancerManagement": {
       "meta": {
-        "title": "Freelancer Management System | Aitivate",
-        "description": "Streamline freelancer onboarding, contracts, and payments. Manage your flexible workforce efficiently and compliantly."
+        "title": "External Workforce Management System | Aitivate",
+        "description": "One-stop management for Freelancer onboarding, contracts, and settlement. Ensure compliance and efficiency when scaling your flexible workforce."
       },
       "hero": {
-        "subtitle": "Human Resources",
-        "title": "Manage Your Freelancer Workforce Effortlessly",
-        "description": "Streamlined onboarding, contract management, and automated payments for your flexible workforce. Stay compliant while staying agile.",
-        "cta": "Book Free Consultation"
+        "subtitle": "HR & Finance Collaboration",
+        "title": "Comprehensive External Workforce Management",
+        "description": "Centralize freelancer onboarding vetting, contract signing, and automated payments. Helps you maintain organizational agility while strictly controlling Compliance Risk.",
+        "cta": "Book Enterprise Demo"
       },
       "painPoints": {
-        "title": "The Freelancer Management Challenge",
-        "subtitle": "Growing freelancer use creates administrative complexity",
+        "title": "The Black Hole of Flexible Workforce Management",
+        "subtitle": "Fragmented external staff management brings administrative burdens and legal risks",
         "points": [
           {
-            "title": "Onboarding Chaos",
-            "description": "Collecting documents, setting up payments, and managing contracts for each freelancer is time-consuming."
+            "title": "Unregulated Onboarding Process",
+            "description": "Manual collection of ID, bank details, and portfolios is time-consuming and prone to missing data, delaying project starts."
           },
           {
-            "title": "Payment Complexity",
-            "description": "Different payment terms, currencies, and methods for each freelancer creates accounting headaches."
+            "title": "Complex Multi-Currency Settlement",
+            "description": "Dealing with payment terms and currencies from different regions (HKD, USD, RMB) consumes massive Finance time on transfers and reconciliation."
           },
           {
-            "title": "Compliance Risk",
-            "description": "Ensuring proper classification and tax documentation for freelancers vs employees."
+            "title": "False Self-Employment & Tax Risks",
+            "description": "Poor management of contract terms and tax documents exposes companies to 'False Self-Employment' allegations and legal liabilities."
           },
           {
-            "title": "No Central View",
-            "description": "Freelancer information scattered across emails, spreadsheets, and chat apps."
+            "title": "Lack of Unified View",
+            "description": "Staff data scattered across emails, chat apps, and spreadsheets makes it impossible to assess total cost and performance of the external workforce."
           }
         ]
       },
       "howItWorks": {
-        "title": "How It Works",
-        "subtitle": "End-to-end freelancer lifecycle management",
+        "title": "Standardized Management Process",
+        "subtitle": "Covering the full lifecycle from contract to payment",
         "steps": [
           {
-            "title": "Onboard",
-            "description": "Digital onboarding collects all required documents and information"
+            "title": "Digital Onboarding",
+            "description": "Automatically collect ID documents and tax data via a self-service portal, conducting compliance screening."
           },
           {
-            "title": "Contract",
-            "description": "Generate and e-sign contracts with your terms automatically"
+            "title": "Smart Contract Signing",
+            "description": "Auto-generate contracts based on preset templates, supporting legally binding E-Signatures."
           },
           {
-            "title": "Track",
-            "description": "Monitor deliverables, time, and project progress"
+            "title": "Delivery & Acceptance",
+            "description": "Systematically track project progress and deliverables, ensuring work is completed before triggering payment."
           },
           {
-            "title": "Pay",
-            "description": "Automated payment processing with proper documentation"
+            "title": "Automated Settlement",
+            "description": "Batch process cross-border payments and automatically generate corresponding invoices and tax vouchers, simplifying month-end closing."
           }
         ]
       },
       "benefits": {
-        "title": "Freelancer Management Made Simple",
-        "subtitle": "Scale your flexible workforce without scaling admin work",
+        "title": "Build an Agile & Compliant External Team",
+        "subtitle": "Scale your workforce indefinitely without increasing administrative headcount",
         "items": [
           {
             "metric": "70%",
-            "title": "Faster Onboarding",
-            "description": "From days to hours for new freelancers"
+            "title": "Shorter Onboarding Cycle",
+            "description": "Slash vetting and signing time for new staff from days to hours."
           },
           {
             "metric": "100%",
-            "title": "Compliant Payments",
-            "description": "Proper documentation for every payment"
+            "title": "Audit Compliance Ensured",
+            "description": "Every expense is attached with complete contract and acceptance records, ready for internal audit."
           },
           {
             "metric": "1",
-            "title": "Central Dashboard",
-            "description": "All freelancer info in one place"
+            "title": "Single Source of Truth (SSOT)",
+            "description": "Real-time monitoring of all external staff costs, contract status, and performance via a central dashboard."
           }
         ]
       },
       "faq": {
-        "title": "Common Questions",
+        "title": "FAQ & Compliance Support",
         "items": [
           {
-            "question": "Does it handle different payment currencies?",
-            "answer": "Yes, pay freelancers in HKD, USD, or other currencies. We handle exchange rates and generate proper payment documentation."
+            "question": "What payment currencies are supported?",
+            "answer": "We support global major currencies (including HKD, USD, EUR). The system locks exchange rates and generates compliant payment vouchers, easing Finance's FX workload."
           },
           {
-            "question": "Can freelancers submit their own invoices?",
-            "answer": "Yes, freelancers get a portal to submit invoices, track payment status, and update their information."
+            "question": "How do freelancers submit invoices or timesheets?",
+            "answer": "Freelancers have a dedicated Vendor Portal to upload invoices, declare hours, and track approval and payment status, eliminating email ping-pong."
           },
           {
-            "question": "How does it help with compliance?",
-            "answer": "We ensure proper freelancer classification, collect required tax documents, and maintain audit-ready records."
+            "question": "How does the system reduce 'False Self-Employment' risk?",
+            "answer": "The system includes standard contract templates and document checklists to ensure clear relationship definitions, preserving all service agreements and tax records for Labour Department and IRD compliance."
           },
           {
-            "question": "Can I set up approval workflows?",
-            "answer": "Yes, configure approval chains for freelancer engagement, deliverable acceptance, and payment authorization."
+            "question": "Can we set payment approval authorities?",
+            "answer": "Yes. You can customize multi-level Approval Workflows based on amount or department. All payments must be digitally authorized before release."
           }
         ]
       },
       "cta": {
-        "title": "Streamline Your Freelancer Operations",
-        "subtitle": "See how easy freelancer management can be.",
-        "button": "Book Free Consultation"
+        "title": "Optimize External Workforce Operations",
+        "subtitle": "Book a consultation to experience compliant and efficient freelancer management.",
+        "button": "Book Free Expert Consultation"
       }
     },
     "payrollManagement": {
       "meta": {
-        "title": "Payroll Management Automation | Aitivate",
-        "description": "Automated payroll processing for Hong Kong businesses. MPF calculations, tax compliance, and seamless bank integration."
+        "title": "Intelligent Payroll & Compliance Management | Aitivate",
+        "description": "Automated payroll system designed for HK enterprises. One-stop handling of 713 ADW, MPF contributions, Tax Filing (IR56), and Autopay."
       },
       "hero": {
-        "subtitle": "Human Resources",
-        "title": "Payroll Processing Without the Headaches",
-        "description": "Automated calculations, MPF compliance, and direct bank integration. Run payroll in minutes, not days.",
-        "cta": "Book Free Consultation"
+        "subtitle": "HR & Finance Integration",
+        "title": "Zero-Error Enterprise Payroll Management",
+        "description": "Automate complex payroll calculations, MPF compliance, and bank transfers. Reduce days of payroll work to minutes, ensuring absolute data precision.",
+        "cta": "Book Enterprise Demo"
       },
       "painPoints": {
-        "title": "Payroll Pain Points",
-        "subtitle": "Manual payroll is risky and time-consuming",
+        "title": "Potential Risks in Traditional Payroll",
+        "subtitle": "Manual calculations are not only inefficient but hide compliance traps",
         "points": [
           {
-            "title": "Complex Calculations",
-            "description": "Overtime, allowances, deductions, and MPF calculations are error-prone when done manually."
+            "title": "Complex & Error-Prone Calculations",
+            "description": "Manual spreadsheets are prone to errors when handling '713 Ordinance' Average Daily Wage (ADW), overtime, allowances, and deductions."
           },
           {
-            "title": "Compliance Anxiety",
-            "description": "Keeping up with IRD requirements and MPF regulations is stressful."
+            "title": "Regulatory Compliance Pressure",
+            "description": "Frequent updates to MPF contribution caps and IRD tax filing requirements increase compliance risks."
           },
           {
-            "title": "Time-Consuming Process",
-            "description": "Payroll takes days each month, pulling HR away from strategic work."
+            "title": "Low Administrative Efficiency",
+            "description": "The monthly payroll cycle consumes massive HR and Finance time, preventing teams from focusing on talent development and analysis."
           },
           {
-            "title": "Bank File Hassles",
-            "description": "Creating bank payment files manually is tedious and error-prone."
+            "title": "Tedious Bank Integration",
+            "description": "Manual creation of Bank Autopay Files is complex, and formatting errors often lead to transfer failures."
           }
         ]
       },
       "howItWorks": {
-        "title": "How It Works",
-        "subtitle": "Payroll automation from calculation to payment",
+        "title": "Fully Automated Payroll Process",
+        "subtitle": "Seamless connection from attendance data to bank payout",
         "steps": [
           {
-            "title": "Import",
-            "description": "Attendance, leave, and variable pay data imported automatically"
+            "title": "Data Synchronization",
+            "description": "Automatically import attendance records, leave approvals, and commission data, eliminating manual entry errors."
           },
           {
-            "title": "Calculate",
-            "description": "Gross pay, deductions, MPF, and net pay calculated instantly"
+            "title": "Intelligent Calculation",
+            "description": "System automatically calculates Basic Salary, 713 ADW, MPF, and deductions based on Employment Ordinance logic."
           },
           {
-            "title": "Review",
-            "description": "Approve payroll with clear summaries and exception flags"
+            "title": "Approval & Reconciliation",
+            "description": "Provides clear Variance Reports, intelligently flagging anomalies for quick management approval."
           },
           {
-            "title": "Pay",
-            "description": "Bank files generated and payments processed automatically"
+            "title": "Payment & Filing",
+            "description": "One-click generation of Bank Autopay Files, MPF Remittance Statements, and e-Payslips."
           }
         ]
       },
       "benefits": {
-        "title": "Payroll That Just Works",
-        "subtitle": "Accurate, compliant, and fast",
+        "title": "Enhance Payroll Operational Efficiency",
+        "subtitle": "Technology ensuring accuracy, compliance, and timeliness",
         "items": [
           {
             "metric": "95%",
-            "title": "Time Saved",
-            "description": "From days to hours each pay cycle"
+            "title": "Shorten Closing Cycle",
+            "description": "Significantly save reconciliation time, making payroll disbursement more punctual and efficient."
           },
           {
             "metric": "100%",
-            "title": "MPF Compliant",
-            "description": "Automatic calculations and submissions"
+            "title": "Regulatory Compliance",
+            "description": "Built-in HK Labour Law logic automatically handles MPF and Tax rules."
           },
           {
-            "metric": "Zero",
-            "title": "Calculation Errors",
-            "description": "Automated validation catches mistakes"
+            "metric": "0",
+            "title": "Calculation Human Errors",
+            "description": "Systematic verification eliminates overpayments or underpayments."
           }
         ]
       },
       "faq": {
-        "title": "Common Questions",
+        "title": "FAQ & Compliance",
         "items": [
           {
-            "question": "Does it handle Hong Kong MPF requirements?",
-            "answer": "Yes, full MPF support including contribution calculations, cap handling, and direct submission to major MPF trustees."
+            "question": "Does the system support complex MPF calculations?",
+            "answer": "Fully supported. The system automatically handles Mandatory and Voluntary contributions, tax-exempt periods for new hires, and income cap calculations, outputting files for major trustees (HSBC, Manulife, AIA)."
           },
           {
-            "question": "Can it process different pay frequencies?",
-            "answer": "Yes, support for monthly, bi-weekly, weekly, and custom pay periods. Different employee groups can have different frequencies."
+            "question": "Can it handle different pay cycles and employment modes?",
+            "answer": "Supports highly flexible settings. Whether Monthly, Daily, Hourly, or Bi-weekly/Weekly pay, the system can set independent logic for different staff groups (Full-time, Part-time, Contract)."
           },
           {
-            "question": "Which banks are supported for payments?",
-            "answer": "Direct integration with HSBC, Hang Seng, Bank of China, Standard Chartered, and other major Hong Kong banks."
+            "question": "Which banks' Autopay functions are supported?",
+            "answer": "We support standard Autopay file formats for all major Hong Kong banks (HSBC, Hang Seng, BOCHK, Standard Chartered), ensuring smooth transfer processes."
           },
           {
-            "question": "Does it generate tax reports?",
-            "answer": "Yes, automatic generation of IR56B, IR56E, IR56F, and other required tax forms."
+            "question": "Can the system assist with annual tax filing?",
+            "answer": "Yes. The system compiles annual payroll data and generates standard tax forms IR56B, IR56E, IR56F, IR56G, and IR56M, supporting XML format for direct IRD upload."
           }
         ]
       },
       "cta": {
-        "title": "Simplify Your Payroll Process",
-        "subtitle": "See how payroll automation can save you time and stress.",
-        "button": "Book Free Consultation"
+        "title": "Experience Worry-Free Payroll",
+        "subtitle": "Book a consultation to see how automation eliminates payroll stress and compliance concerns.",
+        "button": "Book Free Expert Consultation"
       }
     },
     "talentIntelligence": {
       "meta": {
-        "title": "Talent Market Intelligence | Aitivate",
-        "description": "AI-powered talent market insights for Hong Kong. Understand salary trends, skill availability, and competitive positioning."
+        "title": "Talent Market Big Data Intelligence | Aitivate",
+        "description": "AI Talent Insight Engine built for HK enterprises. Real-time grasp of salary benchmarks, skill supply/demand, and competitor moves."
       },
       "hero": {
-        "subtitle": "Human Resources",
+        "subtitle": "Strategic Workforce Planning",
         "title": "Data-Driven Talent Decisions",
-        "description": "AI-powered market intelligence for smarter hiring. Understand salary benchmarks, skill availability, and competitive positioning in Hong Kong.",
-        "cta": "Book Free Consultation"
+        "description": "Stop hiring on intuition. Utilize AI-driven real-time market intelligence to precisely master HK salary trends, scarce skill distribution, and talent flow, optimizing Recruitment ROI.",
+        "cta": "Book Enterprise Demo"
       },
       "painPoints": {
-        "title": "The Talent Intelligence Gap",
-        "subtitle": "Making hiring decisions without market data is risky",
+        "title": "Blind Spots in Traditional Recruitment",
+        "subtitle": "Talent strategies lacking data support lead to resource mismatch and talent loss",
         "points": [
           {
-            "title": "Outdated Salary Data",
-            "description": "Annual salary surveys are outdated by the time they're published."
+            "title": "Severely Lagging Market Data",
+            "description": "Traditional annual salary surveys are obsolete upon release, failing to reflect the rapidly changing talent market."
           },
           {
-            "title": "Blind Competitive Positioning",
-            "description": "No visibility into what competitors are offering candidates."
+            "title": "Lack of Competitive Vision",
+            "description": "Hard to grasp Competitors' compensation structures, leading to uncompetitive offers or excessive premiums."
           },
           {
-            "title": "Skill Availability Unknown",
-            "description": "Unclear which skills are scarce and command premium compensation."
+            "title": "Skill Supply-Demand Mismatch",
+            "description": "Unclear which emerging skills (e.g., AI, ESG) are scarcest, making accurate budgeting difficult."
           },
           {
-            "title": "Reactive Hiring",
-            "description": "Only start looking when positions are already vacant."
+            "title": "Reactive Talent Acquisition",
+            "description": "Often starting market research only after a vacancy arises, lacking proactive talent pipelining."
           }
         ]
       },
       "howItWorks": {
-        "title": "How It Works",
-        "subtitle": "Real-time talent market intelligence",
+        "title": "Comprehensive Intelligence Gathering Engine",
+        "subtitle": "Transforming massive market noise into actionable strategic insights",
         "steps": [
           {
-            "title": "Collect",
-            "description": "AI aggregates data from job postings, surveys, and market sources"
+            "title": "Big Data Aggregation",
+            "description": "AI real-time scraping of job boards, Census data, industry reports, and anonymous payroll databases."
           },
           {
-            "title": "Analyze",
-            "description": "Machine learning identifies trends and patterns"
+            "title": "Intelligent Trend Analysis",
+            "description": "Machine learning identifies salary increase trends, talent flow patterns, and hot skill demands."
           },
           {
-            "title": "Benchmark",
-            "description": "Compare your positions against market rates"
+            "title": "Precise Salary Benchmarking",
+            "description": "Compare your compensation packages against real-time market medians for specific roles, experience, and industries."
           },
           {
-            "title": "Recommend",
-            "description": "Get actionable insights for your talent strategy"
+            "title": "Strategic Recommendations",
+            "description": "System auto-generates recruitment strategy suggestions, including optimal pricing ranges and talent sourcing channels."
           }
         ]
       },
       "benefits": {
-        "title": "Smarter Talent Decisions",
-        "subtitle": "Data-driven HR strategy",
+        "title": "Win the War for Talent",
+        "subtitle": "Shift from reactive response to proactive positioning",
         "items": [
           {
             "metric": "Real-time",
-            "title": "Market Data",
-            "description": "Always current salary and demand insights"
+            "title": "Real-Time Market Pulse",
+            "description": "Access weekly updated salary and supply/demand data, not last year's history."
           },
           {
             "metric": "30%",
-            "title": "Faster Hiring",
-            "description": "Right offers mean faster acceptances"
+            "title": "Increase Offer Acceptance",
+            "description": "Data-based precise pricing significantly reduces candidate rejections due to salary gaps."
           },
           {
             "metric": "Lower",
-            "title": "Turnover Risk",
-            "description": "Competitive compensation reduces attrition"
+            "title": "Reduce Turnover Rate",
+            "description": "Proactively review internal pay competitiveness to adjust retention strategies and prevent core staff exit."
           }
         ]
       },
       "faq": {
-        "title": "Common Questions",
+        "title": "FAQ & Data Sources",
         "items": [
           {
-            "question": "Where does the market data come from?",
-            "answer": "We aggregate data from job postings, industry surveys, government statistics, and anonymized compensation data from participating companies."
+            "question": "What are the specific sources of market data?",
+            "answer": "We aggregate multiple high-confidence sources, including major job platforms, professional industry surveys, government public statistics, and anonymous real-time payroll databases from partners."
           },
           {
-            "question": "How current is the data?",
-            "answer": "Data is updated weekly, giving you near real-time market intelligence rather than annual snapshots."
+            "question": "How frequent are data updates?",
+            "answer": "The system performs weekly data updates and cleansing to ensure your intelligence reflects current supply and demand, far superior to annual reports."
           },
           {
-            "question": "Can I benchmark specific roles?",
-            "answer": "Yes, benchmark any role by title, skills, experience level, and industry. Get percentile rankings and recommended ranges."
+            "question": "Can we benchmark specific niche roles?",
+            "answer": "Yes. You can generate granular Salary Percentile Rankings based on Job Title, Required Skills, Years of Experience, and Industry."
           },
           {
-            "question": "Is the data specific to Hong Kong?",
-            "answer": "Yes, our primary focus is Hong Kong market data, with additional coverage for Greater Bay Area and regional comparisons."
+            "question": "Does data coverage include the Greater Bay Area?",
+            "answer": "Yes. Core focus is Hong Kong, extending to major GBA cities to help you formulate cross-border talent strategies."
           }
         ]
       },
       "cta": {
-        "title": "Get Talent Market Intelligence",
-        "subtitle": "Make data-driven hiring and compensation decisions.",
-        "button": "Book Free Consultation"
+        "title": "Master Talent Competitive Advantage",
+        "subtitle": "Book a consultation to make data your strongest backing in recruitment and retention.",
+        "button": "Book Free Expert Consultation"
       }
     },
     "mpfDocuments": {
       "meta": {
-        "title": "MPF Document Automation | Aitivate",
-        "description": "Automate MPF calculations, submissions, and documentation. Stay compliant with Hong Kong mandatory provident fund requirements."
+        "title": "MPF Compliance Management System | Aitivate",
+        "description": "Automate MPF calculation, remittance statement generation, and filing. Ensure full compliance with MPFA regulations and avoid surcharges."
       },
       "hero": {
-        "subtitle": "Human Resources",
-        "title": "MPF Compliance Made Automatic",
-        "description": "Automated MPF calculations, contribution submissions, and documentation. Never miss a deadline or make a calculation error.",
-        "cta": "Book Free Consultation"
+        "subtitle": "HR & Regulatory Compliance",
+        "title": "Simplify Complexity: Intelligent MPF Compliance",
+        "description": "Say goodbye to manual calculations and form filling. Automate contribution settlement, new hire enrollment, and trustee filing to ensure zero errors and zero fines.",
+        "cta": "Book Enterprise Demo"
       },
       "painPoints": {
-        "title": "MPF Administration Challenges",
-        "subtitle": "Manual MPF processing is complex and risky",
+        "title": "Hidden Time Bombs in MPF Administration",
+        "subtitle": "Manual processing is inefficient and invites MPFA audit risks",
         "points": [
           {
-            "title": "Complex Calculations",
-            "description": "Contribution caps, voluntary contributions, and special cases make calculations error-prone."
+            "title": "Complex Income Definitions",
+            "description": "Manual calculation of first contributions, tax-exempt periods, voluntary contributions, and bonuses often confuses legal definitions, leading to errors."
           },
           {
-            "title": "Deadline Pressure",
-            "description": "Monthly submission deadlines create stress and risk of penalties."
+            "title": "Surcharge Risks for Late Payment",
+            "description": "Missing the monthly contribution day (usually the 10th) leads to a 5% surcharge and MPFA investigation, damaging corporate reputation."
           },
           {
-            "title": "Documentation Burden",
-            "description": "Maintaining proper records for each employee is time-consuming."
+            "title": "Administrative Archiving Pressure",
+            "description": "Employers must keep contribution records for at least 7 years. Paper management makes retrieval difficult, increasing internal audit difficulty."
           },
           {
-            "title": "Trustee Communication",
-            "description": "Different trustees have different submission formats and requirements."
+            "title": "Inconsistent Trustee Standards",
+            "description": "Different trustees (e.g., HSBC, Manulife) have different remittance statement formats. Manual conversion is time-consuming and error-prone."
           }
         ]
       },
       "howItWorks": {
-        "title": "How It Works",
-        "subtitle": "End-to-end MPF automation",
+        "title": "Fully Automated Filing Process",
+        "subtitle": "End-to-end solution from payroll calculation to trustee connection",
         "steps": [
           {
-            "title": "Calculate",
-            "description": "Automatic contribution calculations from payroll data"
+            "title": "Intelligent Calculation",
+            "description": "Based on payroll data, automatically distinguish Mandatory and Voluntary contributions, precisely calculating employer and employee amounts."
           },
           {
-            "title": "Validate",
-            "description": "Smart checks catch errors before submission"
+            "title": "Compliance Verification",
+            "description": "Built-in regulatory logic automatically detects cap/floor anomalies and accurate calculation for joiners/leavers."
           },
           {
-            "title": "Submit",
-            "description": "Direct submission to your MPF trustee"
+            "title": "One-Click Filing",
+            "description": "Auto-generate Remittance Statements in standard formats for major trustees, supporting direct upload."
           },
           {
-            "title": "Document",
-            "description": "Automatic record-keeping and employee statements"
+            "title": "Digital Archiving",
+            "description": "All contribution records and employee statements are automatically archived, creating a complete Audit Trail."
           }
         ]
       },
       "benefits": {
-        "title": "Stress-Free MPF Compliance",
-        "subtitle": "Accurate, on-time, every time",
+        "title": "Build a Worry-Free Compliance System",
+        "subtitle": "Technology ensuring accuracy, eliminating administrative lag",
         "items": [
           {
             "metric": "100%",
-            "title": "Calculation Accuracy",
-            "description": "Automated calculations eliminate errors"
+            "title": "Regulatory Compliance",
+            "description": "Eliminate contribution discrepancies and compliance loopholes caused by calculation errors."
           },
           {
-            "metric": "Zero",
-            "title": "Late Submissions",
-            "description": "Automated reminders and submissions"
+            "metric": "0",
+            "title": "Late Penalty Risk",
+            "description": "Automated reminders and rapid settlement ensure filing is completed before the deadline."
           },
           {
             "metric": "Audit",
-            "title": "Ready Records",
-            "description": "Complete documentation always available"
+            "title": "Audit Ready",
+            "description": "Clear digital records make inquiries from external auditors and MPFA smooth and simple."
           }
         ]
       },
       "faq": {
-        "title": "Common Questions",
+        "title": "FAQ & Trustee Support",
         "items": [
           {
-            "question": "Which MPF trustees are supported?",
-            "answer": "We support all major MPF trustees including Manulife, AIA, HSBC, Sun Life, and others. Direct submission available for most trustees."
+            "question": "Which MPF Trustees does the system support?",
+            "answer": "We support all major HK trustees, including Manulife, AIA, HSBC, Sun Life, and BCT. The system outputs contribution file formats specific to each platform."
           },
           {
-            "question": "Does it handle voluntary contributions?",
-            "answer": "Yes, full support for both mandatory and voluntary contributions, including tax-deductible voluntary contributions (TVC)."
+            "question": "Can it handle Voluntary Contributions?",
+            "answer": "Fully supported. You can flexibly set employer voluntary contribution ratios for different grades, and handle employee TVC arrangements."
           },
           {
-            "question": "What about new employee enrollment?",
-            "answer": "Automated enrollment forms and submission for new employees within the required timeframe."
+            "question": "How are new hire enrollments handled?",
+            "answer": "The system automatically generates standard new hire enrollment forms and includes necessary registration data in the first contribution file, simplifying onboarding admin."
           },
           {
-            "question": "Can employees access their MPF information?",
-            "answer": "Yes, employees can view their contribution history and statements through the self-service portal."
+            "question": "Can employees check their MPF records?",
+            "answer": "Yes. Employees can view monthly contribution details and download electronic records anytime via the Employee Self-Service portal, increasing transparency."
           }
         ]
       },
       "cta": {
-        "title": "Automate Your MPF Administration",
-        "subtitle": "Never worry about MPF compliance again.",
-        "button": "Book Free Consultation"
+        "title": "Eliminate MPF Management Pain Points",
+        "subtitle": "Book a consultation to experience turning tedious compliance into automated workflows.",
+        "button": "Book Free Expert Consultation"
       }
     }
   },
   "CaseStudies": {
     "hub": {
-      "title": "Customer Success Stories",
-      "subtitle": "See how Hong Kong businesses transformed their operations with Aitivate"
+      "title": "Client Success Stories",
+      "subtitle": "Witness how Hong Kong enterprises achieve digital transformation and operational upgrades with Aitivate"
     },
     "talentMarketTrend": {
       "meta": {
-        "title": "How a Recruitment Agency Stays Ahead of Talent Trends | Aitivate",
-        "description": "Learn how a Hong Kong recruitment agency uses AI-powered talent intelligence to advise clients and win more business."
+        "title": "How Recruitment Consultants Master Talent Trends with AI | Aitivate",
+        "description": "Learn how leading HK headhunters use real-time AI talent intelligence to improve salary advice accuracy and win more corporate contracts."
       },
-      "title": "Staying Ahead of Talent Market Trends",
-      "category": "Human Resources",
-      "excerpt": "A leading Hong Kong recruitment agency transformed their advisory services with real-time talent market intelligence.",
+      "title": "Data-Driven Consultant Transformation",
+      "category": "Human Resources (HR)",
+      "excerpt": "A leading local recruitment consultancy transformed from a traditional agency to a strategic talent partner using real-time talent market big data.",
       "hero": {
-        "headline": "How a Recruitment Agency Became the Go-To Talent Advisor",
-        "result": "40% increase in client retention"
+        "headline": "Evolution from 'Job Matching' to 'Strategic Advisory'",
+        "result": "Client Retention Rate Surged 40%"
       },
       "challenge": {
         "title": "The Challenge",
-        "content": "A mid-sized Hong Kong recruitment agency was losing clients to larger competitors who offered salary benchmarking and market insights. Their consultants relied on outdated annual surveys and personal experience, which wasn't enough for sophisticated HR clients.",
+        "content": "As a mid-sized recruitment firm facing competition from large multinationals, they found traditional models relying on 'Annual Salary Reports' and 'Personal Experience' could no longer satisfy savvy corporate HR clients. Clients needed current market reality, not last year's history.",
         "points": [
-          "Clients demanding real-time salary data that the agency couldn't provide",
-          "Losing pitches to competitors with better market intelligence",
-          "Consultants spending hours manually researching market rates",
-          "No systematic way to track talent availability trends"
+          "Outdated salary data led to unpersuasive advice",
+          "Lack of unique data advantage when bidding for corporate retainers",
+          "Consultants spent massive hours manually gathering market intelligence",
+          "Unable to quantify supply/demand trends for specific skillsets"
         ]
       },
       "solution": {
         "title": "The Solution",
-        "content": "Aitivate implemented our Talent Market Intelligence solution, giving the agency's consultants instant access to real-time market data and AI-powered insights.",
+        "content": "Implemented Aitivate's Talent Intelligence system, equipping the consultant team with an AI real-time data engine to turn market insights into business assets.",
         "features": [
-          "Real-time salary benchmarking for any role",
-          "Skill demand and availability tracking",
-          "Automated market reports for client presentations",
-          "Competitive intelligence on hiring trends"
+          "Real-time Salary Benchmarking for specific roles and industries",
+          "Tracking of scarce skill supply/demand and talent flow trends",
+          "One-click generation of professional market analysis whitepapers for client demos",
+          "Competitor recruitment activity monitoring"
         ]
       },
       "results": {
-        "title": "The Results",
+        "title": "Transformation Results",
         "metrics": [
-          { "value": "40%", "label": "Client Retention Increase" },
-          { "value": "3x", "label": "More Advisory Engagements" },
-          { "value": "5hrs", "label": "Saved Per Consultant Weekly" }
+          { "value": "40%", "label": "Client Retention Rate" },
+          { "value": "3x", "label": "Growth in Advisory Business" },
+          { "value": "5 Hrs", "label": "Research Hours Saved Per Consultant/Week" }
         ]
       },
       "testimonial": {
@@ -953,49 +950,49 @@
         "company": ""
       },
       "cta": {
-        "title": "Ready to Transform Your Business?",
-        "subtitle": "See how Aitivate can deliver similar results for your organization.",
-        "button": "Book Free Consultation"
+        "title": "Ready to Elevate Your Consultant Value?",
+        "subtitle": "See how Aitivate helps you win more high-value contracts.",
+        "button": "Book Industry Solution Demo"
       }
     },
     "fpsInvoice": {
       "meta": {
-        "title": "How a Trading Company Accelerated Payments with FPS | Aitivate",
-        "description": "Learn how a Hong Kong trading company reduced payment collection time by 60% with automated FPS QR codes."
+        "title": "How Trading Companies Accelerate Cash Flow with FPS Automation | Aitivate",
+        "description": "HK trading company shortened DSO by 60% by embedding FPS QR codes in invoices and automating reconciliation."
       },
-      "title": "Accelerating Payments with FPS Automation",
-      "category": "Account & Finance",
-      "excerpt": "A Hong Kong trading company dramatically reduced payment collection time by automating FPS QR codes on all invoices.",
+      "title": "FPS Automation & Cash Flow Optimization",
+      "category": "Finance & Accounting",
+      "excerpt": "An import/export trading firm resolved collection delays and reconciliation pain points by integrating FPS QR codes into invoices with automated matching.",
       "hero": {
-        "headline": "From 45 Days to 18 Days: A Payment Collection Transformation",
-        "result": "60% faster payment collection"
+        "headline": "From 45 Days to 18 Days: Rapid Cash Cycle Optimization",
+        "result": "Collection Speed Increased 60%"
       },
       "challenge": {
         "title": "The Challenge",
-        "content": "A Hong Kong-based import/export company was struggling with slow payment collection. Their average days sales outstanding (DSO) was 45 days, and their finance team spent hours each week chasing payments and manually reconciling bank transfers.",
+        "content": "This trading company with many SME clients suffered from long-term cash flow issues. Average DSO was 45 days, and the Finance team spent massive time weekly manually checking bank statements against remittance advices, with very low efficiency.",
         "points": [
-          "Average 45-day payment collection cycle hurting cash flow",
-          "Customers complained about tedious bank transfer process",
-          "Finance team spending 10+ hours weekly on payment reconciliation",
-          "No way to track which invoices had been viewed or paid"
+          "Long DSO created huge Working Capital pressure",
+          "Traditional bank transfer and cheque processing was tedious",
+          "Finance spent 10+ hours weekly on manual reconciliation",
+          "Lack of real-time invoice status tracking (read/paid)"
         ]
       },
       "solution": {
         "title": "The Solution",
-        "content": "Aitivate implemented our FPS QR Code Augmentation solution, automatically embedding unique FPS QR codes in every invoice with the exact payment amount pre-filled.",
+        "content": "Deployed Aitivate's Intelligent Collection Automation, using FPS technology to connect billing and collection for seamless integration.",
         "features": [
-          "Automatic FPS QR code generation for each invoice",
-          "Unique reference codes for instant reconciliation",
-          "Real-time payment notifications",
-          "Seamless integration with existing accounting systems"
+          "Invoices auto-embedded with dedicated FPS Collection QR Codes",
+          "Unique ID for every transaction ensuring 100% automated reconciliation",
+          "Real-time payment notifications and system status updates",
+          "Seamless integration with existing ERP/Accounting systems"
         ]
       },
       "results": {
-        "title": "The Results",
+        "title": "Transformation Results",
         "metrics": [
-          { "value": "60%", "label": "Faster Payment Collection" },
-          { "value": "8hrs", "label": "Saved Weekly on Reconciliation" },
-          { "value": "18 days", "label": "New Average DSO" }
+          { "value": "60%", "label": "Collection Cycle Shortened" },
+          { "value": "8 Hrs", "label": "Reconciliation Hours Saved Weekly" },
+          { "value": "18 Days", "label": "New Average DSO" }
         ]
       },
       "testimonial": {
@@ -1005,49 +1002,101 @@
         "company": ""
       },
       "cta": {
-        "title": "Ready to Get Paid Faster?",
-        "subtitle": "See how FPS automation can transform your payment collection.",
-        "button": "Book Free Consultation"
+        "title": "Want to Improve Corporate Cash Flow?",
+        "subtitle": "Experience how FPS automation makes collections simple and direct.",
+        "button": "Book Finance Process Consultation"
+      }
+    },
+    "revenueCycle": {
+      "meta": {
+        "title": "How Professional Services Firms Achieve Quote-to-Cash Automation | Aitivate",
+        "description": "Consultancy improved operational efficiency and compliance by automating the full Quote-Project-Collection cycle."
+      },
+      "title": "Reshaping the Revenue Cycle",
+      "category": "Finance & Operations",
+      "excerpt": "A professional management consultancy eliminated departmental data silos and significantly boosted billing efficiency by integrating the 'Quote-Project-Collection' flow.",
+      "hero": {
+        "headline": "Connecting the Last Mile of Quote-to-Cash",
+        "result": "Billing Cycle Time Reduced 40%"
+      },
+      "challenge": {
+        "title": "The Challenge",
+        "content": "The consultancy's operations were fragmented: Sales used Word for quotes, PMs used Excel for progress, Finance used accounting software for billing. This 'Data Gap' led to missed bills, errors, and delayed receipt issuance after payment.",
+        "points": [
+          "Quote creation took 2-3 days and lacked standardization",
+          "Management blind to conversion status from 'Signed' to 'Billable'",
+          "Project milestones completion failed to trigger timely billing",
+          "Manual receipt issuance was prone to omission, causing compliance concerns"
+        ]
+      },
+      "solution": {
+        "title": "The Solution",
+        "content": "Adopted Aitivate's Full Revenue Cycle Management System, completely connecting Sales, Project, and Finance data streams for automated flow.",
+        "features": [
+          "Professional Quote Templates supporting E-Signature",
+          "Auto-conversion to Project and Billing Plan upon contract signing",
+          "Automated Milestone Billing based on project progress",
+          "Instant automated official receipt upon payment confirmation"
+        ]
+      },
+      "results": {
+        "title": "Transformation Results",
+        "metrics": [
+          { "value": "40%", "label": "Billing Cycle Efficiency Lift" },
+          { "value": "100%", "label": "Document Accuracy & Compliance" },
+          { "value": "2x", "label": "Proposal Processing Capacity" }
+        ]
+      },
+      "testimonial": {
+        "quote": "",
+        "author": "",
+        "role": "",
+        "company": ""
+      },
+      "cta": {
+        "title": "Ready to Optimize Your Operations?",
+        "subtitle": "Learn how to eliminate admin bottlenecks and accelerate revenue recognition.",
+        "button": "Book Enterprise Demo"
       }
     },
     "payrollAi": {
       "meta": {
-        "title": "How a Retail Chain Automated Payroll for 500+ Staff | Aitivate",
-        "description": "Learn how a Hong Kong retail chain reduced payroll processing time by 90% while ensuring perfect MPF compliance."
+        "title": "How Large Retail Chains Automate Payroll for 500+ Staff | Aitivate",
+        "description": "See how a HK retail brand solved complex 713 calculations and MPF compliance via system integration, cutting payroll time by 90%."
       },
-      "title": "Automating Payroll for a Growing Retail Chain",
-      "category": "Human Resources",
-      "excerpt": "A Hong Kong retail chain with 500+ employees transformed their payroll process from a 3-day ordeal to a 3-hour task.",
+      "title": "Digital Upgrade of Retail Payroll Management",
+      "category": "Human Resources (HR)",
+      "excerpt": "A retail chain with 15 branches successfully transformed a tedious monthly 'Payroll Week' into an automated process taking just hours.",
       "hero": {
-        "headline": "From 3 Days to 3 Hours: Payroll Transformation",
-        "result": "90% reduction in payroll processing time"
+        "headline": "From 3 Days of Agony to 3 Hours Completion: Releasing HR Value",
+        "result": "Payroll Processing Time Cut 90%"
       },
       "challenge": {
         "title": "The Challenge",
-        "content": "A Hong Kong retail chain with 15 stores and over 500 employees was drowning in payroll complexity. With multiple shift patterns, commission structures, and part-time staff, their HR team spent three full days each month just processing payroll.",
+        "content": "With over 500 frontline staff, the chain faced complex Rosters, Commission calculations, and Part-time turnover. The HR team spent 3 full days monthly on payroll, headache-induced by '713 Ordinance' ADW calculations and MPF details.",
         "points": [
-          "3 days of manual payroll processing each month",
-          "Frequent calculation errors requiring corrections",
-          "MPF submissions often rushed and error-prone",
-          "Staff complaints about payslip accuracy"
+          "Spent 3 days monthly on high-intensity payroll computation",
+          "Manual calculation of complex commissions and allowances prone to error",
+          "Rushed MPF filing increased risk of non-compliance fines",
+          "Frequent staff queries on payslips occupied massive HR time"
         ]
       },
       "solution": {
         "title": "The Solution",
-        "content": "Aitivate implemented our Payroll Management solution with direct integration to their POS and time attendance systems.",
+        "content": "Implemented Aitivate's Intelligent Payroll Management System, deeply integrated with store POS and Time & Attendance systems.",
         "features": [
-          "Automatic import of attendance and sales data",
-          "Complex commission calculation automation",
-          "MPF calculation and direct submission",
-          "Employee self-service for payslips and leave"
+          "Auto-sync attendance clock-ins and POS sales commission data",
+          "Built-in '713 Ordinance' logic for auto-calculation of ADW and Holiday Pay",
+          "Automated MPF calculation and direct file submission to trustees",
+          "Employee Self-Service App for e-Payslips and leave balances"
         ]
       },
       "results": {
-        "title": "The Results",
+        "title": "Transformation Results",
         "metrics": [
-          { "value": "90%", "label": "Time Reduction" },
-          { "value": "Zero", "label": "Calculation Errors" },
-          { "value": "100%", "label": "On-Time MPF Submissions" }
+          { "value": "90%", "label": "Payroll Processing Time Reduction" },
+          { "value": "0", "label": "Calculation Human Errors" },
+          { "value": "100%", "label": "MPF Compliance & On-Time Filing" }
         ]
       },
       "testimonial": {
@@ -1057,128 +1106,128 @@
         "company": ""
       },
       "cta": {
-        "title": "Ready to Transform Your Payroll?",
-        "subtitle": "See how payroll automation can save you time and eliminate errors.",
-        "button": "Book Free Consultation"
+        "title": "Want to Solve Payroll Headaches For Good?",
+        "subtitle": "See how automation helps you easily handle complex retail payroll management.",
+        "button": "Book HR System Demo"
       }
     }
   },
   "Technology": {
     "meta": {
-      "title": "Our Technology | Aitivate",
-      "description": "Learn about the AI and automation technology powering Aitivate's solutions for Hong Kong businesses."
+      "title": "Core Technology Architecture | Aitivate",
+      "description": "Explore how Aitivate uses Enterprise AI and Automation to build a secure, efficient operational hub for HK businesses."
     },
     "hero": {
-      "title": "Technology Built for Hong Kong Business",
-      "subtitle": "Enterprise-grade AI automation with local expertise"
+      "title": "Technology Core Built for HK Business Environment",
+      "subtitle": "Enterprise-grade architecture fusing top-tier AI intelligence with local compliance standards"
     },
     "sections": {
       "ai": {
-        "title": "AI-Powered Intelligence",
-        "description": "Our solutions leverage advanced machine learning and natural language processing to understand your documents, predict outcomes, and automate decisions.",
+        "title": "AI-Driven Business Intelligence",
+        "description": "Beyond simple automation. Our AI engine is trained to deeply understand the context of Hong Kong business documents, enabling precise prediction and decision support.",
         "features": [
-          "Bilingual NLP for English and Traditional Chinese",
-          "Computer vision for document understanding",
-          "Predictive analytics for business insights",
-          "Continuous learning from your data"
+          "Bilingual & Mixed-Language NLP Processing",
+          "Intelligent Document Processing (IDP) Computer Vision",
+          "Predictive Business Data Analytics",
+          "Continuous Self-Optimizing ML Models"
         ]
       },
       "integration": {
-        "title": "Seamless Integration",
-        "description": "Connect with your existing tools without disruption. Our platform integrates with the software Hong Kong businesses already use.",
+        "title": "Seamless System Docking",
+        "description": "Break data silos. Our 'API-First' architecture connects seamlessly with your existing ERP, CRM, and Accounting systems without replacing software.",
         "features": [
-          "Pre-built connectors for popular business software",
-          "API-first architecture for custom integrations",
-          "Real-time data synchronization",
-          "No-code integration builder"
+          "Pre-built Connectors for Major Software (Xero, Salesforce, etc.)",
+          "Highly Customizable API Integration Support",
+          "Millisecond-level Real-time Data Sync",
+          "Low-Code Integration Configuration for Rapid Deployment"
         ]
       },
       "platform": {
-        "title": "Workflow Automation Platform",
-        "description": "Built on n8n, the leading workflow automation platform, customized for Hong Kong business requirements.",
+        "title": "Flexible Workflow Orchestration Engine",
+        "description": "Based on industry-leading n8n automation architecture, customized for the complex operational logic of HK enterprises, offering infinite scalability.",
         "features": [
-          "Visual workflow builder",
-          "400+ pre-built integrations",
-          "Custom logic and conditions",
-          "Scalable cloud infrastructure"
+          "Intuitive Visual Workflow Designer",
+          "Over 400+ Pre-built System Integrations",
+          "Support for Complex Custom Logic & Conditions",
+          "High Availability & Elastic Cloud Architecture"
         ]
       }
     }
   },
   "About": {
     "meta": {
-      "title": "About Aitivate | AI Automation for Hong Kong Business",
-      "description": "Aitivate is Hong Kong's leading provider of AI-powered business automation solutions. Learn about our mission and team."
+      "title": "About Aitivate | Enterprise AI Expert from HK Listed Company",
+      "description": "Aitivate is the enterprise AI solution brand under New Media Lab (1284.HK). We translate intelligent automation technology verified internally into practical tools for your business growth."
     },
     "hero": {
-      "title": "Empowering Hong Kong Businesses with AI",
-      "subtitle": "We believe every business deserves access to intelligent automation"
+      "title": "Battle-Tested Enterprise AI",
+      "subtitle": "Incubated by listed company New Media Lab, turning the technology that powers a digital media kingdom into your competitive advantage."
     },
     "mission": {
-      "title": "Our Mission",
-      "content": "Aitivate was founded with a simple mission: make enterprise-grade AI automation accessible to Hong Kong businesses of all sizes. We saw companies struggling with manual processes, drowning in paperwork, and unable to compete with larger organizations that had dedicated IT teams. We knew there had to be a better way."
+      "title": "From Internal Pain Points to Market Solutions",
+      "content": "Aitivate was not born by chance. As a leading Hong Kong digital media group (New Media Lab, Stock Code: 1284), owning influential brands like 'Economic Digest' and 'Weekend Weekly', we deeply felt the bottlenecks of manual processes while managing massive media operations and user data. Over the past 3.5 years, we invested in AI R&D—from automated receipt recognition for iTrial to intelligent editorial workflows—successfully automating group operations. Now, our mission is to open these battle-tested technologies to Hong Kong enterprises, allowing you to enjoy listed-company level operational efficiency without massive R&D costs."
     },
     "values": {
-      "title": "Our Values",
+      "title": "Our Core Advantages",
       "items": [
         {
-          "title": "Local First",
-          "description": "We build for Hong Kong. Our solutions understand local regulations, support bilingual operations, and integrate with the tools HK businesses use."
+          "title": "Battle-Tested",
+          "description": "Our AI is not a lab product, but seasoned by massive internal group data. From high-traffic receipt processing to complex HR workflows, system stability and accuracy have passed rigorous commercial tests."
         },
         {
-          "title": "Simplicity",
-          "description": "Powerful technology should be easy to use. We hide complexity so you can focus on your business, not on managing software."
+          "title": "Deep Local Context",
+          "description": "Born from local media DNA, our AI has unique understanding of the 'Mixed English/Chinese' Hong Kong business context, precisely handling complex documents fitting local regulations and habits."
         },
         {
-          "title": "Results-Driven",
-          "description": "We measure success by your outcomes. If our solutions don't deliver measurable ROI, we haven't done our job."
+          "title": "Enterprise Grade",
+          "description": "Inheriting listed company governance standards, we have the highest commitment to data security, privacy protection (PDPO), and audit compliance. We are your most trusted tech partner."
         },
         {
-          "title": "Partnership",
-          "description": "We're not just a vendor. We're your automation partner, committed to your long-term success."
+          "title": "Results First",
+          "description": "We don't just talk tech concepts. Just as we saved thousands of man-hours internally, we measure our success in serving you solely by quantifiable ROI."
         }
       ]
     },
     "team": {
-      "title": "Our Team",
-      "content": "Our team combines deep expertise in AI, enterprise software, and Hong Kong business operations. We've built and scaled technology at leading companies, and now we're applying that experience to help local businesses thrive."
+      "title": "Strong R&D Backing",
+      "content": "Aitivate is led by New Media Lab's core tech team. We combine AI scientists and engineers with Finance and HR consultants who deeply understand corporate operations. This team successfully drove digital transformation in traditional media and now brings that experience to help your enterprise cross the tech threshold."
     },
     "hongKong": {
-      "title": "Built in Hong Kong, for Hong Kong",
-      "description": "We understand the unique challenges of doing business in Hong Kong. Our solutions are designed with local regulations, bilingual requirements, and HK business practices in mind.",
+      "title": "Made in Hong Kong, Confidence Guaranteed",
+      "description": "As part of a HK listed group, we understand local business challenges and regulatory requirements. Your data is safely stored in local Hong Kong data centers, protected by HK law, with no cross-border compliance concerns.",
       "stats": {
         "businesses": {
-          "value": "50+",
-          "label": "HK Businesses Served"
+          "value": "1284.HK",
+          "label": "From HK Listed Co."
         },
         "storage": {
-          "value": "100%",
-          "label": "Local Data Storage"
+          "value": "3.5 Years+",
+          "label": "Internal R&D Proven"
         },
         "bilingual": {
-          "value": "EN/中",
-          "label": "Bilingual Support"
+          "value": "100%",
+          "label": "HK Compliance Standard"
         }
       }
     },
     "cta": {
-      "title": "Ready to Get Started?",
-      "subtitle": "Book a free consultation to discuss how Aitivate can help your business.",
-      "button": "Book Free Consultation"
+      "title": "Replicate Our Success",
+      "subtitle": "Book an enterprise consultation to learn how to deploy the automation technology used by a listed group into your business.",
+      "button": "Book Enterprise Solution Demo"
     }
   },
   "Events": {
     "meta": {
       "title": "Events | Aitivate",
-      "description": "Join Aitivate at upcoming events, webinars, and workshops on AI automation for Hong Kong businesses."
+      "description": "Join Aitivate's upcoming HK enterprise AI automation events, webinars, and workshops."
     },
     "hero": {
       "title": "Events & Webinars",
-      "subtitle": "Learn, connect, and discover the future of business automation"
+      "subtitle": "Learn, Connect, and Explore the Future of Enterprise Automation"
     },
     "upcoming": {
       "title": "Upcoming Events",
-      "empty": "No upcoming events scheduled. Check back soon or subscribe to our newsletter for updates."
+      "empty": "No events currently scheduled. Check back later or subscribe to our newsletter for updates."
     },
     "past": {
       "title": "Past Events",
@@ -1186,13 +1235,13 @@
       "events": [
         {
           "date": "December 2025",
-          "title": "AI Automation for HK SMEs: Getting Started",
-          "description": "An introduction to practical AI automation for small and medium businesses in Hong Kong."
+          "title": "Intro to AI Automation for HK SMEs",
+          "description": "Practical AI automation introduction for Hong Kong SMEs."
         },
         {
           "date": "November 2025",
-          "title": "Automating Finance Operations: FPS & OCR Workshop",
-          "description": "Hands-on workshop covering FPS QR code automation and OCR document processing."
+          "title": "Financial Ops Automation: FPS & OCR Workshop",
+          "description": "Hands-on workshop covering FPS QR Code automation and OCR document processing."
         }
       ]
     },

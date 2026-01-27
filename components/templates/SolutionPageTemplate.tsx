@@ -25,6 +25,7 @@ interface SolutionPageTemplateProps {
     subtitle: string;
     description: string;
     ctaText: string;
+    seeHowItWorksText: string;
   };
   painPoints: {
     title: string;
@@ -99,6 +100,7 @@ export default function SolutionPageTemplate({
           ctaText={hero.ctaText}
           calendlyUrl={BOOKING_URL}
           utmCampaign={utmCampaign}
+          seeHowItWorksText={hero.seeHowItWorksText}
         />
 
         <PainPoints
