@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import "../globals.css";
 import { Analytics } from "@/components/Analytics";
+import { GoogleTagManager } from "@/components/GoogleTagManager";
 
 // Generate static params for all locales
 export function generateStaticParams() {
@@ -119,6 +120,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
           <Analytics />
+          <GoogleTagManager />
         </NextIntlClientProvider>
       </body>
     </html>
