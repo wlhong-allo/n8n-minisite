@@ -1,5 +1,7 @@
 'use client';
 
+import { trackBookingClick } from '@/lib/analytics';
+
 interface CalendlyButtonProps {
   url: string;
   text: string;
@@ -20,6 +22,8 @@ export default function CalendlyButton({
   utmContent,
 }: CalendlyButtonProps) {
   const handleClick = () => {
+    trackBookingClick('button_component');
+    
     // Build URL with UTM parameters if provided
     const urlWithParams = new URL(url);
     if (utmSource) urlWithParams.searchParams.set('utm_source', utmSource);

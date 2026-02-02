@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useState, useRef, useEffect } from 'react';
+import { trackBookingClick } from '@/lib/analytics';
 
 const BOOKING_URL = 'https://calendar.app.google/i528ifBA6o7rMdsq7';
 
@@ -20,6 +21,7 @@ export default function Navbar() {
   const locale = pathname.startsWith('/zh-HK') ? 'zh-HK' : 'en';
 
   const openBooking = () => {
+    trackBookingClick('navbar');
     window.open(BOOKING_URL, '_blank', 'noopener,noreferrer');
   };
 
