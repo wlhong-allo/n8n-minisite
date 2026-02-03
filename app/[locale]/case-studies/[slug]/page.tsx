@@ -115,6 +115,7 @@ export default async function CaseStudyPage({
       }}
       seoDescription={t('meta.description')}
       utmCampaign={`case_study_${slug}`}
+      image={caseStudy.image}
     />
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import CalendlyButton from './CalendlyButton';
 
 interface SolutionHeroProps {
@@ -9,6 +10,7 @@ interface SolutionHeroProps {
   calendlyUrl: string;
   utmCampaign?: string;
   seeHowItWorksText?: string;
+  image?: string;
 }
 
 export default function SolutionHero({
@@ -19,6 +21,7 @@ export default function SolutionHero({
   calendlyUrl,
   utmCampaign,
   seeHowItWorksText = 'See How It Works',
+  image,
 }: SolutionHeroProps) {
   return (
     <section className="relative pt-32 pb-20 px-6 md:px-12 lg:px-24 min-h-[70vh] overflow-hidden flex flex-col justify-center">
@@ -46,7 +49,7 @@ export default function SolutionHero({
         </p>
 
         {/* CTA Button */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <CalendlyButton
             url={calendlyUrl}
             text={ctaText}
@@ -61,10 +64,24 @@ export default function SolutionHero({
           >
             {seeHowItWorksText}
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
             </svg>
           </a>
         </div>
+
+        {/* Hero Image */}
+        {image && (
+          <div className="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
+            <Image
+              src={image}
+              alt={title}
+              width={1200}
+              height={800}
+              className="w-full h-auto"
+              priority
+            />
+          </div>
+        )}
       </div>
     </section>
   );

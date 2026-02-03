@@ -184,6 +184,7 @@ export default async function FinanceSolutionPage({
       }}
       seoDescription={t('meta.description')}
       utmCampaign={slug}
+      image={solution.image}
     />
   );
 }

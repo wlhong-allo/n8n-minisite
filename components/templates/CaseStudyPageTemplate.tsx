@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
@@ -52,6 +53,7 @@ interface CaseStudyPageTemplateProps {
   };
   seoDescription: string;
   utmCampaign: string;
+  image?: string;
 }
 
 export default function CaseStudyPageTemplate({
@@ -69,6 +71,7 @@ export default function CaseStudyPageTemplate({
   breadcrumbs: breadcrumbLabels,
   seoDescription,
   utmCampaign,
+  image,
 }: CaseStudyPageTemplateProps) {
   const breadcrumbs = [
     { label: breadcrumbLabels.home, href: '' },
@@ -101,10 +104,24 @@ export default function CaseStudyPageTemplate({
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
               {hero.headline}
             </h1>
-            <div className="bg-gradient-to-r from-cyan-500 to-purple-500 text-white rounded-2xl p-8 text-center">
+            <div className="bg-gradient-to-r from-cyan-500 to-purple-500 text-white rounded-2xl p-8 text-center mb-12">
               <p className="text-lg opacity-90 mb-2">{hero.keyResultLabel}</p>
               <p className="text-3xl md:text-4xl font-bold">{hero.result}</p>
             </div>
+            
+            {/* Hero Image */}
+            {image && (
+              <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl border border-gray-100 mb-12">
+                <Image
+                  src={image}
+                  alt={hero.headline}
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto"
+                  priority
+                />
+              </div>
+            )}
           </div>
         </section>
 

@@ -4,6 +4,7 @@ export interface CaseStudy {
   relatedSolution: string;
   category: string;
   datePublished: string;
+  image?: string;
 }
 
 export const caseStudies: CaseStudy[] = [
@@ -20,6 +21,7 @@ export const caseStudies: CaseStudy[] = [
     relatedSolution: 'fps-qr-code-augmentation',
     category: 'Account & Finance',
     datePublished: '2025-11-20',
+    image: '/assets/fps-ai-auto-invoice.png',
   },
   {
     slug: 'payroll-operation-ai',

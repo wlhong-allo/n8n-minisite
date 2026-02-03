@@ -2,6 +2,7 @@ export interface Solution {
   slug: string;
   category: 'account-finance' | 'human-resources';
   translationKey: string;
+  image?: string;
 }
 
 export const financeSolutions: Solution[] = [
@@ -9,6 +10,7 @@ export const financeSolutions: Solution[] = [
     slug: 'fps-qr-code-augmentation',
     category: 'account-finance',
     translationKey: 'fpsQrCode',
+    image: '/assets/fps-ai-auto-invoice.png',
   },
   {
     slug: 'ocr-document-management',

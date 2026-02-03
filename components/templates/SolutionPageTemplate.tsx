@@ -54,6 +54,7 @@ interface SolutionPageTemplateProps {
   };
   seoDescription: string;
   utmCampaign: string;
+  image?: string;
 }
 
 export default function SolutionPageTemplate({
@@ -70,6 +71,7 @@ export default function SolutionPageTemplate({
   cta,
   seoDescription,
   utmCampaign,
+  image,
 }: SolutionPageTemplateProps) {
   const breadcrumbs = [
     { label: breadcrumbLabels.home, href: '' },
@@ -101,6 +103,7 @@ export default function SolutionPageTemplate({
           calendlyUrl={BOOKING_URL}
           utmCampaign={utmCampaign}
           seeHowItWorksText={hero.seeHowItWorksText}
+          image={image}
         />
 
         <PainPoints
