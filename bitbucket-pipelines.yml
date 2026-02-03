@@ -3,7 +3,7 @@ pipelines:
 
 
   branches:
-    main:
+    production:
       - step: &build-image
           script:
             - pip install requests
@@ -12,7 +12,7 @@ pipelines:
             - eval "$(ssh-agent -s)" &&  ssh-add - <<< `echo $GITADMIN_KEY | base64 -d -i`
             - git clone git@bitbucket.org:gitadmin/it-cicd-scripts.git cicd-scripts
             - export version="$(python3 cicd-scripts/version.py)"
-            - export GCR_REPO=asia-east2-docker.pkg.dev/dev-playground-366808/n8n/n8n-minisite
+            - export GCR_REPO=asia-east2-docker.pkg.dev/dev-playground-366808/n8n/n8n-minisite-prod
             - echo $GCLOUD_API_KEYFILE | docker login -u _json_key_base64 --password-stdin asia-east2-docker.pkg.dev/dev-playground-366808
             - export BUILD_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
             - docker build --platform linux/amd64 -f Dockerfile --build-arg NEXT_PUBLIC_GA_ID=G-8CY1BH8SKB --build-arg NEXT_PUBLIC_BUILD_TIME=${BUILD_TIME} -t ${GCR_REPO}:${version} .
@@ -22,7 +22,7 @@ pipelines:
             - gcloud -v
             - echo "$GCLOUD_API_KEYFILE" | base64 -d > api-key.json
             - gcloud auth activate-service-account --key-file api-key.json --project dev-playground-366808
-            - gcloud run deploy n8n-minisite --image=${GCR_REPO}:${version} --region=europe-west1 --platform=managed
+            - gcloud run deploy n8n-minisite-prod --image=${GCR_REPO}:${version} --region=europe-west1 --platform=managed
           after-script:
             - pip install requests
             - pip install retrying
