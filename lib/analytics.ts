@@ -5,8 +5,7 @@ type GTagEvent = {
   value?: number;
 };
 
-// Hardcoded GA ID for reliable tracking
-export const GA_TRACKING_ID = 'G-8CY1BH8SKB';
+export const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID || '';
 export const ADS_TRACKING_ID = process.env.NEXT_PUBLIC_ADS_ID || '';
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/events
