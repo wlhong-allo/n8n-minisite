@@ -23,12 +23,10 @@ export function GoogleTagManager() {
         }}
       />
       
-      {ADS_TRACKING_ID && (
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${ADS_TRACKING_ID}`}
-          strategy="afterInteractive"
-        />
-      )}
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${ADS_TRACKING_ID || GA_TRACKING_ID}`}
+        strategy="afterInteractive"
+      />
     </>
   );
 }
