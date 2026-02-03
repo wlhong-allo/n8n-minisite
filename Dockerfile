@@ -23,7 +23,9 @@ ENV NODE_ENV=production
 
 # Accept build-time environment variables
 ARG NEXT_PUBLIC_GA_ID
+ARG NEXT_PUBLIC_BUILD_TIME
 ENV NEXT_PUBLIC_GA_ID=$NEXT_PUBLIC_GA_ID
+ENV NEXT_PUBLIC_BUILD_TIME=$NEXT_PUBLIC_BUILD_TIME
 
 # Build the Next.js application
 RUN npm run build

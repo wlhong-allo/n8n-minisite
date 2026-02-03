@@ -1,14 +1,25 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { usePathname } from 'next/navigation';
+import { GA_TRACKING_ID } from '@/lib/analytics';
+import { APP_VERSION, BUILD_TIME } from '@/lib/version';
 
 export default function Footer() {
   const t = useTranslations('Footer');
   const pathname = usePathname();
   const locale = pathname.startsWith('/zh-HK') ? 'zh-HK' : 'en';
+  const [copied, setCopied] = useState(false);
+
+  const debugInfo = `v${APP_VERSION} | GA: ${GA_TRACKING_ID} | Built: ${BUILD_TIME}`;
+
+  const handleCopyDebugInfo = () => {
+    navigator.clipboard.writeText(debugInfo);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   return (
     <footer className="py-16 px-6 md:px-12 lg:px-24 bg-gray-900 text-white">
@@ -91,6 +102,15 @@ export default function Footer() {
               {t('links.terms')}
             </Link>
           </div>
+        </div>
+
+        {/* Hidden Debug Info - click to copy */}
+        <div 
+          onClick={handleCopyDebugInfo}
+          className="mt-4 text-[10px] text-gray-800 hover:text-gray-600 cursor-pointer select-all text-center transition-colors"
+          title="Click to copy debug info"
+        >
+          {copied ? '✓ Copied!' : debugInfo}
         </div>
       </div>
     </footer>
