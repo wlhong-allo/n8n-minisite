@@ -36,10 +36,6 @@ export default function Footer() {
             <p className="text-gray-400 mb-4 max-w-md">
               {t('tagline')}
             </p>
-            <p className="text-gray-500 text-sm">
-              {t('company')}<br />
-              {t('address')}
-            </p>
           </div>
 
           {/* Solutions Links */}
@@ -94,14 +90,14 @@ export default function Footer() {
           <p className="text-gray-500 text-sm">
             {t('copyright')}
           </p>
-          <div className="flex gap-6 text-sm">
+          {/* <div className="flex gap-6 text-sm">
             <Link href="#" className="text-gray-500 hover:text-gray-400 transition-colors">
               {t('links.privacy')}
             </Link>
             <Link href="#" className="text-gray-500 hover:text-gray-400 transition-colors">
               {t('links.terms')}
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {/* Hidden Debug Info - click to copy */}
@@ -109,6 +105,7 @@ export default function Footer() {
           onClick={handleCopyDebugInfo}
           className="mt-4 text-[10px] text-gray-800 hover:text-gray-600 cursor-pointer select-all text-center transition-colors"
           title="Click to copy debug info"
+          suppressHydrationWarning
         >
           {copied ? '✓ Copied!' : debugInfo}
         </div>
