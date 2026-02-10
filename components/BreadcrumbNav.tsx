@@ -25,7 +25,7 @@ export default function BreadcrumbNav({ items, locale }: BreadcrumbNavProps) {
               '@type': 'ListItem',
               position: index + 1,
               name: item.label,
-              item: item.href ? `https://aitivate.com/${locale}${item.href}` : undefined,
+              item: item.href ? `https://aitivate.ai/${locale}${item.href}` : undefined,
             })),
           }),
         }}

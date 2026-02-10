@@ -3,7 +3,7 @@ import { financeSolutions, hrSolutions } from '@/lib/solutions';
 import { caseStudies } from '@/lib/case-studies';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://aitivate.com';
+  const baseUrl = 'https://aitivate.ai';
   const locales = ['en', 'zh-HK'];
   const lastModified = new Date();
 

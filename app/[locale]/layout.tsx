@@ -28,7 +28,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aitivate.com"),
+  metadataBase: new URL("https://aitivate.ai"),
   title: {
     default: "Aitivate - Agentic AI Solutions for Hong Kong Business",
     template: "%s | Aitivate",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_HK",
     alternateLocale: "zh_HK",
-    url: "https://aitivate.com",
+    url: "https://aitivate.ai",
     siteName: "Aitivate",
     title: "Aitivate - Agentic AI Solutions for Hong Kong Business",
     description: "Automate your Hong Kong business workflows with AI-native precision.",
@@ -88,10 +88,10 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://aitivate.com",
+    canonical: "https://aitivate.ai",
     languages: {
-      "en": "https://aitivate.com/en",
-      "zh-HK": "https://aitivate.com/zh-HK",
+      "en": "https://aitivate.ai/en",
+      "zh-HK": "https://aitivate.ai/zh-HK",
     },
   },
 };
@@ -110,9 +110,9 @@ export default async function RootLayout({
     <html lang={locale}>
       <head>
         {/* Hreflang tags for SEO */}
-        <link rel="alternate" hrefLang="en" href="https://aitivate.com/en" />
-        <link rel="alternate" hrefLang="zh-HK" href="https://aitivate.com/zh-HK" />
-        <link rel="alternate" hrefLang="x-default" href="https://aitivate.com/en" />
+        <link rel="alternate" hrefLang="en" href="https://aitivate.ai/en" />
+        <link rel="alternate" hrefLang="zh-HK" href="https://aitivate.ai/zh-HK" />
+        <link rel="alternate" hrefLang="x-default" href="https://aitivate.ai/en" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

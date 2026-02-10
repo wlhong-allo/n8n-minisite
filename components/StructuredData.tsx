@@ -44,8 +44,8 @@ export default function StructuredData(props: StructuredDataProps) {
         '@type': 'Organization',
         name: 'Aitivate',
         description: 'Agentic AI Solutions for Hong Kong Business Workflows',
-        url: 'https://aitivate.com',
-        logo: 'https://aitivate.com/assets/aitivate_logo.png',
+        url: 'https://aitivate.ai',
+        logo: 'https://aitivate.ai/assets/aitivate_logo.png',
         sameAs: [
           'https://www.linkedin.com/company/aitivate',
         ],
@@ -97,7 +97,7 @@ export default function StructuredData(props: StructuredDataProps) {
           name: 'Aitivate',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://aitivate.com/assets/aitivate_logo.png',
+            url: 'https://aitivate.ai/assets/aitivate_logo.png',
           },
         },
       };
