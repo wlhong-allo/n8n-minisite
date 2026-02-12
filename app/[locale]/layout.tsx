@@ -107,7 +107,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <head>
         {/* Hreflang tags for SEO */}
         <link rel="alternate" hrefLang="en" href="https://aitivate.ai/en" />
