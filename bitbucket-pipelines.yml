@@ -15,7 +15,12 @@ pipelines:
             - export GCR_REPO=asia-east2-docker.pkg.dev/dev-playground-366808/n8n/n8n-minisite
             - echo $GCLOUD_API_KEYFILE | docker login -u _json_key_base64 --password-stdin asia-east2-docker.pkg.dev/dev-playground-366808
             - export BUILD_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-            - docker build --platform linux/amd64 -f Dockerfile --build-arg NEXT_PUBLIC_GA_ID=G-8CY1BH8SKB --build-arg NEXT_PUBLIC_BUILD_TIME=${BUILD_TIME} -t ${GCR_REPO}:${version} .
+            - |
+              docker build --platform linux/amd64 -f Dockerfile \
+              --build-arg NEXT_PUBLIC_GA_ID=G-8CY1BH8SKB \
+              --build-arg NEXT_PUBLIC_BUILD_TIME=${BUILD_TIME} \
+              --build-arg NEXT_PUBLIC_ADS_ID=${NEXT_PUBLIC_ADS_ID} \
+              -t ${GCR_REPO}:${version} .
             - docker push ${GCR_REPO}:${version}
             - curl -sSL https://sdk.cloud.google.com | bash
             - export PATH="$HOME/google-cloud-sdk/bin:$PATH"
@@ -43,7 +48,12 @@ pipelines:
             - export GCR_REPO=asia-east2-docker.pkg.dev/dev-playground-366808/n8n/n8n-minisite-prod
             - echo $GCLOUD_API_KEYFILE | docker login -u _json_key_base64 --password-stdin asia-east2-docker.pkg.dev/dev-playground-366808
             - export BUILD_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-            - docker build --platform linux/amd64 -f Dockerfile --build-arg NEXT_PUBLIC_GA_ID=G-8CY1BH8SKB --build-arg NEXT_PUBLIC_BUILD_TIME=${BUILD_TIME} -t ${GCR_REPO}:${version} .
+            - |
+              docker build --platform linux/amd64 -f Dockerfile \
+              --build-arg NEXT_PUBLIC_GA_ID=G-8CY1BH8SKB \
+              --build-arg NEXT_PUBLIC_BUILD_TIME=${BUILD_TIME} \
+              --build-arg NEXT_PUBLIC_ADS_ID=${NEXT_PUBLIC_ADS_ID} \
+              -t ${GCR_REPO}:${version} .
             - docker push ${GCR_REPO}:${version}
             - curl -sSL https://sdk.cloud.google.com | bash
             - export PATH="$HOME/google-cloud-sdk/bin:$PATH"
