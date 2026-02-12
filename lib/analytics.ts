@@ -6,7 +6,7 @@ type GTagEvent = {
 };
 
 export const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID || '';
-export const ADS_TRACKING_ID = process.env.NEXT_PUBLIC_ADS_ID || '';
+export const ADS_TRACKING_ID = process.env.NEXT_PUBLIC_ADS_ID || 'AW-17930400043';
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/events
 export const pageview = (url: string) => {
