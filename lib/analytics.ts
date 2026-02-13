@@ -35,6 +35,21 @@ export const event = ({ action, category, label, value }: GTagEvent) => {
   }
 };
 
+// Google Ads conversion tracking for lead form submissions
+export const trackConversion = (url?: string) => {
+  if (typeof window.gtag !== 'undefined') {
+    const callback = () => {
+      if (typeof url !== 'undefined') {
+        window.location.href = url;
+      }
+    };
+    window.gtag('event', 'conversion', {
+      'send_to': `${ADS_TRACKING_ID}/Z_D_CKnh6fcbEKvi8OVC`,
+      'event_callback': callback,
+    });
+  }
+};
+
 // Specific event for booking consultation
 export const trackBookingClick = (location: string) => {
   event({
@@ -42,10 +57,7 @@ export const trackBookingClick = (location: string) => {
     category: 'engagement',
     label: location, // e.g., 'navbar', 'hero_cta', 'footer'
   });
-  
-  // If user provides a specific Google Ads conversion label later, we can add it here:
-  // window.gtag('event', 'conversion', {
-  //   'send_to': 'AW-17924743763/YOUR_CONVERSION_LABEL',
-  //   'event_callback': callback
-  // });
+
+  // Fire Google Ads conversion event
+  trackConversion();
 };
